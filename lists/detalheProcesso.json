@@ -6,13 +6,13 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "formDefId": "listaProcessosColossus",
+            "formDefId": "documentosProcesso",
             "functionColumns": [],
             "groupBy": "",
             "joins": [{
-                "fieldId": "doc_proce_colossus.pid",
+                "fieldId": "lista_proce_colossus.pid",
                 "joinFieldId": "pid",
-                "tableName": "doc_proce_colossus"
+                "tableName": "lista_proce_colossus"
             }]
         }
     },
@@ -23,40 +23,24 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
-            "label": "PID",
-            "name": "pid",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Data de Criação",
-            "name": "dataCriacao",
+            "label": "Nome do Documento",
+            "name": "nomeDocumento",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
-            "label": "Prédio",
-            "name": "predio",
+            "label": "Formato do Documento",
+            "name": "formatoDocumento",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
-            "label": "Freguesia",
-            "name": "freguesia",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Conservatoria",
-            "name": "conservatoria",
+            "id": "column_1",
+            "label": "Tipo de Documento",
+            "name": "tipoDocumento",
             "sortable": "false"
         }
     ],
