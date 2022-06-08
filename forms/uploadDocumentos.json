@@ -53,7 +53,7 @@
                                 "autoHandleFiles": "",
                                 "autoHandleWorkflowVariable": "true",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT c_nomeDocumento, c_tipoDocumento FROM app_fd_doc_proce_colossus"
+                                "sql": "SELECT c_nomeDocumento,c_formatoDocumento ,c_tipoDocumento FROM app_fd_doc_proce_colossus"
                             }
                         },
                         "options": [
