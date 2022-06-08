@@ -39,8 +39,8 @@
                         "deleteGridData": "",
                         "deleteMessage": "Delete row?",
                         "deleteSubformData": "",
-                        "disabledAdd": "true",
-                        "disabledDelete": "true",
+                        "disabledAdd": "",
+                        "disabledDelete": "",
                         "enableSorting": "",
                         "errorMessage": "Invalid number of rows",
                         "formDefId": "documentosProcesso",
@@ -59,7 +59,7 @@
                         "options": [
                             {
                                 "format": "",
-                                "formatType": "text",
+                                "formatType": "file",
                                 "label": "Nome do Documento",
                                 "value": "nomeDocumento",
                                 "width": ""
@@ -81,7 +81,7 @@
                         ],
                         "pageSize": "20",
                         "permissionHidden": "",
-                        "readonly": "",
+                        "readonly": "true",
                         "readonlyLabel": "",
                         "showRowNumber": "",
                         "storeBinder": {
