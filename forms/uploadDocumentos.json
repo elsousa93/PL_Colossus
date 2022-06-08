@@ -46,8 +46,8 @@
                         "errorMessage": "Invalid number of rows",
                         "formDefId": "",
                         "height": "500",
-                        "id": "field3",
-                        "label": "List Grid",
+                        "id": "listaDocumentos",
+                        "label": "Lista de Documentos",
                         "listId": "documentosProcesso",
                         "loadBinder": {
                             "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
@@ -61,7 +61,7 @@
                         "options": [
                             {
                                 "editable": "no",
-                                "format": "documento",
+                                "format": "c_documento",
                                 "formatType": "file",
                                 "label": "Nome do Documento",
                                 "value": "nomeDocumento",
@@ -115,13 +115,8 @@
             "join": "",
             "label": "Section",
             "loadBinder": {
-                "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
-                "properties": {
-                    "autoHandleFiles": "",
-                    "autoHandleWorkflowVariable": "true",
-                    "jdbcDatasource": "default",
-                    "sql": "Select * from app_fd_doc_proce_colossus"
-                }
+                "className": "",
+                "properties": {}
             },
             "permission": {
                 "className": "",
