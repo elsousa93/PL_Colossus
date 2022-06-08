@@ -40,15 +40,22 @@
                         "loadBinder": {
                             "className": "org.joget.plugin.enterprise.MultirowFormBinder",
                             "properties": {
-                                "foreignKey": "pid",
+                                "foreignKey": "id",
                                 "formDefId": "documentosProcesso"
                             }
                         },
-                        "options": [{
-                            "label": "Nome do Documento",
-                            "value": "nomeDocumento"
-                        }],
-                        "readonly": "",
+                        "options": [
+                            {
+                                "label": "Nome do Documento",
+                                "value": "nomeDocumento"
+                            },
+                            {
+                                "label": "Tipo de Documento",
+                                "value": "tipoDocumento"
+                            }
+                        ],
+                        "permissionHidden": "",
+                        "readonly": "true",
                         "storeBinder": {
                             "className": "",
                             "properties": {}
