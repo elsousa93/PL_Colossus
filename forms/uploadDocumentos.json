@@ -32,64 +32,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.plugin.enterprise.AdvancedGrid",
-                    "properties": {
-                        "deleteMessage": "Delete row?",
-                        "disabledAdd": "",
-                        "disabledDelete": "",
-                        "errorMessage": "Invalid number of rows",
-                        "formDefId": "documentosProcesso",
-                        "hint": "Click to edit. Tab to save.",
-                        "id": "advGridDocuments",
-                        "keyToSave": "9",
-                        "label": "Advanced Grid",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [
-                            {
-                                "formatType": "",
-                                "label": "Nome do Documento",
-                                "readonly": "",
-                                "value": "nomeDocumento",
-                                "width": ""
-                            },
-                            {
-                                "formatType": "",
-                                "label": "Tipo do Documento",
-                                "readonly": "",
-                                "value": "tipoDocumento",
-                                "width": ""
-                            },
-                            {
-                                "formatType": "",
-                                "label": "Formato do Documento",
-                                "readonly": "",
-                                "value": "formatoDocumento",
-                                "width": ""
-                            }
-                        ],
-                        "pagingOptions": "10,20,50,100",
-                        "readonly": "",
-                        "recordPerPage": "20",
-                        "search": "",
-                        "showRowNumber": "true",
-                        "sortIndx": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "uniqueKey": "",
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
-                    }
-                },
-                {
                     "className": "org.joget.plugin.enterprise.ListGrid",
                     "properties": {
                         "abortRelatedRunningProcesses": "",
