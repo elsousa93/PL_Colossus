@@ -58,7 +58,7 @@
                         },
                         "options": [
                             {
-                                "format": "c_documento",
+                                "format": "documentosProcesso",
                                 "formatType": "file",
                                 "label": "Nome do Documento",
                                 "value": "nomeDocumento",
