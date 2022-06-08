@@ -50,11 +50,8 @@
                         "label": "List Grid",
                         "listId": "documentosProcesso",
                         "loadBinder": {
-                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
-                            "properties": {
-                                "foreignKey": "pid",
-                                "formDefId": "documentosProcesso"
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "options": [
                             {
@@ -79,6 +76,14 @@
                                 "formatType": "text",
                                 "label": "Formato do Documento",
                                 "value": "formatoDocumento",
+                                "width": ""
+                            },
+                            {
+                                "editable": "no",
+                                "format": "",
+                                "formatType": "file",
+                                "label": "Documento",
+                                "value": "documento",
                                 "width": ""
                             }
                         ],
