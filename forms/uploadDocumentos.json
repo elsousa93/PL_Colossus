@@ -11,7 +11,7 @@
                         "attachment": "",
                         "fileType": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "uploadDocumentos",
+                        "id": "documento",
                         "label": "Upload Documentos",
                         "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
