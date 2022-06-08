@@ -48,8 +48,13 @@
                         "id": "listaDocumentos",
                         "label": "Lista de Documentos",
                         "loadBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "jdbcDatasource": "default",
+                                "sql": "Select nomeDocumento,formatoDocumento,tipoDocumento from doc_proce_colossus;"
+                            }
                         },
                         "options": [
                             {
