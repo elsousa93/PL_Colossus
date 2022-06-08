@@ -32,40 +32,12 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.Grid",
+                    "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
-                        "errorMessage": "Invalid number of rows",
+                        "autoPopulate": "",
                         "id": "listaDocumentos",
                         "label": "Lista de Documentos",
-                        "loadBinder": {
-                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
-                            "properties": {
-                                "foreignKey": "id",
-                                "formDefId": "documentosProcesso"
-                            }
-                        },
-                        "options": [
-                            {
-                                "label": "Nome do Documento",
-                                "value": "nomeDocumento"
-                            },
-                            {
-                                "label": "Tipo de Documento",
-                                "value": "tipoDocumento"
-                            }
-                        ],
-                        "permissionHidden": "",
-                        "readonly": "true",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
+                        "value": "<script>\r\n$(document).ready(function()\r\n    {\r\n        // Set specific variable to represent all iframe tags.\r\n        var iFrames = document.getElementsByTagName('iframe');\r\n \r\n        // Resize heights.\r\n        function iResize()\r\n        {\r\n            // Iterate through all iframes in the page.\r\n            for (var i = 0, j = iFrames.length; i < j; i++)\r\n            {\r\n                // Set inline style to equal the body height of the iframed content.\r\n                iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';\r\n            }\r\n        }\r\n \r\n        // Check if browser is Safari or Opera.\r\n        if ($.browser.safari || $.browser.opera)\r\n        {\r\n            // Start timer when loaded.\r\n            $('iframe').load(function()\r\n                {\r\n                    setTimeout(iResize, 0);\r\n                }\r\n            );\r\n \r\n            // Safari and Opera need a kick-start.\r\n            for (var i = 0, j = iFrames.length; i < j; i++)\r\n            {\r\n                var iSource = iFrames[i].src;\r\n                iFrames[i].src = '';\r\n                iFrames[i].src = iSource;\r\n            }\r\n        }\r\n        else\r\n        {\r\n            // For other good browsers.\r\n            $('iframe').load(function()\r\n                {\r\n                    // Set inline style to equal the body height of the iframed content.\r\n                    this.style.height = this.contentWindow.document.body.offsetHeight + 'px';\r\n                }\r\n            );\r\n        }\r\n    }\r\n);\r\n<\/script>\r\n \r\n<iframe name='iframe' id=\"iframe\" src=\"url of your datalist?embed=true\" frameborder=\"0\" border=\"0\" cellspacing=\"0\" height=\"100%\" style=\"border-style: none;width: 100%;\"><\/iframe>"
                     }
                 }
             ],
@@ -79,9 +51,25 @@
     "properties": {
         "description": "",
         "id": "uploadDocumentos",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "Upload Documentos",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "doc_proce_colossus"
     }
 }
