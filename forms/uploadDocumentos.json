@@ -50,8 +50,11 @@
                         "label": "List Grid",
                         "listId": "documentosProcesso",
                         "loadBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                            "properties": {
+                                "foreignKey": "pid",
+                                "formDefId": "documentosProcesso"
+                            }
                         },
                         "options": [
                             {
