@@ -46,13 +46,13 @@
                         "errorMessage": "Invalid number of rows",
                         "formDefId": "",
                         "height": "500",
-                        "id": "field2",
+                        "id": "listaDocumentos",
                         "label": "List Grid",
                         "listId": "documentosProcesso",
                         "loadBinder": {
                             "className": "org.joget.plugin.enterprise.MultirowFormBinder",
                             "properties": {
-                                "foreignKey": "id",
+                                "foreignKey": "pid",
                                 "formDefId": "documentosProcesso"
                             }
                         },
@@ -84,7 +84,7 @@
                         ],
                         "pageSize": "20",
                         "permissionHidden": "",
-                        "readonly": "true",
+                        "readonly": "",
                         "readonlyLabel": "",
                         "requestParams": [],
                         "showRowNumber": "",
