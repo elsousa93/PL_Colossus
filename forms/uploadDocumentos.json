@@ -32,12 +32,67 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "className": "org.joget.plugin.enterprise.FormGrid",
                     "properties": {
-                        "autoPopulate": "",
+                        "abortRelatedRunningProcesses": "",
+                        "deleteFiles": "",
+                        "deleteGridData": "",
+                        "deleteMessage": "Delete row?",
+                        "deleteSubformData": "",
+                        "disabledAdd": "",
+                        "disabledDelete": "",
+                        "enableSorting": "",
+                        "errorMessage": "Invalid number of rows",
+                        "formDefId": "documentosProcesso",
+                        "height": "500",
                         "id": "listaDocumentos",
                         "label": "Lista de Documentos",
-                        "value": "<script>\r\n$(document).ready(function()\r\n    {\r\n        // Set specific variable to represent all iframe tags.\r\n        var iFrames = document.getElementsByTagName('iframe');\r\n \r\n        // Resize heights.\r\n        function iResize()\r\n        {\r\n            // Iterate through all iframes in the page.\r\n            for (var i = 0, j = iFrames.length; i < j; i++)\r\n            {\r\n                // Set inline style to equal the body height of the iframed content.\r\n                iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';\r\n            }\r\n        }\r\n \r\n        // Check if browser is Safari or Opera.\r\n        if ($.browser.safari || $.browser.opera)\r\n        {\r\n            // Start timer when loaded.\r\n            $('iframe').load(function()\r\n                {\r\n                    setTimeout(iResize, 0);\r\n                }\r\n            );\r\n \r\n            // Safari and Opera need a kick-start.\r\n            for (var i = 0, j = iFrames.length; i < j; i++)\r\n            {\r\n                var iSource = iFrames[i].src;\r\n                iFrames[i].src = '';\r\n                iFrames[i].src = iSource;\r\n            }\r\n        }\r\n        else\r\n        {\r\n            // For other good browsers.\r\n            $('iframe').load(function()\r\n                {\r\n                    // Set inline style to equal the body height of the iframed content.\r\n                    this.style.height = this.contentWindow.document.body.offsetHeight + 'px';\r\n                }\r\n            );\r\n        }\r\n    }\r\n);\r\n<\/script>\r\n \r\n<iframe name='iframe' id=\"iframe\" src=\"url of your datalist?embed=true\" frameborder=\"0\" border=\"0\" cellspacing=\"0\" height=\"100%\" style=\"border-style: none;width: 100%;\"><\/iframe>"
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "format": "",
+                                "formatType": "text",
+                                "label": "Nome do Documento",
+                                "value": "nomeDocumento",
+                                "width": ""
+                            },
+                            {
+                                "format": "",
+                                "formatType": "text",
+                                "label": "Formato do Documento",
+                                "value": "formatoDocumento",
+                                "width": ""
+                            },
+                            {
+                                "format": "",
+                                "formatType": "text",
+                                "label": "Tipo do Documento",
+                                "value": "tipoDocumento",
+                                "width": ""
+                            }
+                        ],
+                        "pageSize": "20",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "readonlyLabel": "",
+                        "showRowNumber": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "submit-label-normal": "",
+                        "submit-label-readonly": "",
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "width": "900"
                     }
                 }
             ],
