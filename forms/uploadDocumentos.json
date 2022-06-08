@@ -40,7 +40,7 @@
                         "deleteGridData": "",
                         "deleteMessage": "Delete row?",
                         "deleteSubformData": "",
-                        "disabledAdd": "true",
+                        "disabledAdd": "",
                         "disabledDelete": "",
                         "enableSorting": "",
                         "errorMessage": "Invalid number of rows",
