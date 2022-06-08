@@ -20,12 +20,29 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "org.joget.tutorial.FileLinkDatalistFormatter",
+                "properties": {
+                    "attachment": "",
+                    "formDefId": "documentosProcesso"
+                }
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "Nome do Documento",
             "name": "nomeDocumento",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
