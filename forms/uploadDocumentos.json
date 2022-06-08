@@ -80,14 +80,6 @@
                                 "label": "Formato do Documento",
                                 "value": "formatoDocumento",
                                 "width": ""
-                            },
-                            {
-                                "editable": "no",
-                                "format": "",
-                                "formatType": "file",
-                                "label": "Documento",
-                                "value": "doc",
-                                "width": ""
                             }
                         ],
                         "pageSize": "20",
