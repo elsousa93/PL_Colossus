@@ -81,7 +81,7 @@
                         ],
                         "pageSize": "20",
                         "permissionHidden": "",
-                        "readonly": "true",
+                        "readonly": "",
                         "readonlyLabel": "",
                         "showRowNumber": "",
                         "storeBinder": {
