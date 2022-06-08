@@ -77,14 +77,6 @@
                                 "label": "Formato do Documento",
                                 "value": "formatoDocumento",
                                 "width": ""
-                            },
-                            {
-                                "editable": "no",
-                                "format": "",
-                                "formatType": "file",
-                                "label": "File",
-                                "value": "file",
-                                "width": ""
                             }
                         ],
                         "pageSize": "20",
