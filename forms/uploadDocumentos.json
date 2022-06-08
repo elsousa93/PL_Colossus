@@ -58,7 +58,7 @@
                         },
                         "options": [
                             {
-                                "format": "uploadDocumentos",
+                                "format": "documento",
                                 "formatType": "file",
                                 "label": "Nome do Documento",
                                 "value": "nomeDocumento",
