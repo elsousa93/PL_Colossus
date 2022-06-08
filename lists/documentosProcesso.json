@@ -42,6 +42,14 @@
             "label": "Tipo de Documento",
             "name": "tipoDocumento",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Documento",
+            "name": "documento",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
