@@ -130,6 +130,32 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.FileUpload",
+                    "properties": {
+                        "attachment": "",
+                        "fileType": "",
+                        "fileTypeMsg": "Invalid file type",
+                        "id": "field7",
+                        "label": "File Upload",
+                        "maxSize": "",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "multiple": "",
+                        "padding": "",
+                        "permissionType": "",
+                        "readonly": "",
+                        "removeFile": "",
+                        "resizeHeight": "",
+                        "resizeMethod": "",
+                        "resizeQuality": "0.8",
+                        "resizeWidth": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
                 }
             ],
             "properties": {"width": "100%"}
