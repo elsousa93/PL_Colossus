@@ -65,7 +65,7 @@
                             {
                                 "editable": "no",
                                 "format": "",
-                                "formatType": "options",
+                                "formatType": "text",
                                 "label": "Tipo de Documento",
                                 "value": "tipoDocumento",
                                 "width": ""
