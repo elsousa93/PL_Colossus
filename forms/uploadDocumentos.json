@@ -55,7 +55,7 @@
                                 "autoHandleFiles": "",
                                 "autoHandleWorkflowVariable": "true",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT * FROM doc_proce_colossus"
+                                "sql": "SELECT * FROM lista_proce_colossus"
                             }
                         },
                         "options": [
