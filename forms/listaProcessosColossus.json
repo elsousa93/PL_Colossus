@@ -130,27 +130,6 @@
                         "value": "",
                         "workflowVariable": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SubForm",
-                    "properties": {
-                        "formDefId": "uploadDocumentos",
-                        "id": "field7",
-                        "label": "Upload",
-                        "loadBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
-                        },
-                        "noframe": "",
-                        "parentSubFormId": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "storeBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
-                        },
-                        "subFormParentId": ""
-                    }
                 }
             ],
             "properties": {"width": "100%"}
