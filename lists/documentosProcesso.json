@@ -20,6 +20,28 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "true",
+            "id": "column_2",
+            "include_export": "",
+            "label": "lista_proce_colossus.pid",
+            "name": "lista_proce_colossus.pid",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
