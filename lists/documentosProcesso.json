@@ -1,11 +1,69 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "extraCondition": "",
+            "formDefId": "documentosProcesso"
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "true",
+            "id": "column_0",
+            "include_export": "",
+            "label": "PID",
+            "name": "pid",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Tipo de Documento",
+            "name": "tipoDocumento",
+            "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Documento",
+            "name": "documento",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "documentosProcesso",
@@ -13,5 +71,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
