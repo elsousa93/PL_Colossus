@@ -18,23 +18,47 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "id": "column_2",
-        "label": "Tipo de Documento",
-        "name": "tipoDocumento",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Tipo de Documento",
+            "name": "tipoDocumento",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Upload Documentos",
+            "name": "documento",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [],
+    "hidePageSize": "",
     "id": "documentosProcesso",
     "name": "Documento do Processo",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
         "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
@@ -54,6 +78,8 @@
         },
         "type": "text"
     }],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
