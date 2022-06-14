@@ -122,18 +122,23 @@
                         "id": "documetos",
                         "label": "Documentos",
                         "loadBinder": {
-                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "jdbcDatasource": "default",
+                                "sql": "SELECT  * from app_fd_doc_proce_colossus"
+                            }
                         },
                         "noframe": "",
                         "parentSubFormId": "pid",
                         "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
                             "properties": {}
                         },
-                        "subFormParentId": ""
+                        "subFormParentId": "pid"
                     }
                 }
             ],
