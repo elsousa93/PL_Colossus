@@ -28,8 +28,16 @@
         },
         {
             "action": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/8E800B3F05EF4CD68C087D086BDDBB80",
+                    "hrefColumn": "",
+                    "hrefParam": "",
+                    "label": "Hyperlink",
+                    "target": "_self",
+                    "visible": ""
+                }
             },
             "alignment": "",
             "datalist_type": "column",
