@@ -149,7 +149,7 @@
                                 "width": ""
                             },
                             {
-                                "format": "documento",
+                                "format": "documentosProcesso",
                                 "formatType": "file",
                                 "label": "Documento",
                                 "value": "documento",
