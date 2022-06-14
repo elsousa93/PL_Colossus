@@ -19,6 +19,7 @@
             "sortable": "false"
         },
         {
+            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_1",
@@ -32,8 +33,8 @@
                 "properties": {
                     "confirmation": "",
                     "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/CE99A5AEB1934B8294A1D343B3D2AD29?_mode=edit",
-                    "hrefColumn": "id;pid",
-                    "hrefParam": "id;pid",
+                    "hrefColumn": "pid",
+                    "hrefParam": "pid",
                     "label": "Hyperlink",
                     "target": "_self",
                     "visible": ""
