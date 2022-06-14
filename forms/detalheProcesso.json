@@ -122,11 +122,11 @@
                         "id": "documetos",
                         "label": "Documentos",
                         "loadBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
                             "properties": {}
                         },
                         "noframe": "",
-                        "parentSubFormId": "",
+                        "parentSubFormId": "pid",
                         "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
