@@ -135,8 +135,16 @@
                         "readonly": "",
                         "readonlyLabel": "",
                         "storeBinder": {
-                            "className": "org.joget.plugin.enterprise.ParentFormBinder",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.JdbcStoreBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "check_sql": "SELECT\r\n   *\r\nFROM\r\n   app_fd_table\r\nWHERE\r\n   id =  {id}",
+                                "delete_sql": "DELETE\r\nFROM\r\n   app_fd_table\r\nWHERE\r\n   id = {id}",
+                                "insert_sql": "INSERT app_fd_table\r\n       (id,\r\n        c_pid,\r\n        c_tipoDocumento,\r\n        c_documento)\r\nVALUES ({id},\r\n        {pid}\r\n        {tipoDocumento},\r\n        {documeto})",
+                                "jdbcDatasource": "default",
+                                "update_sql": "UPDATE app_fd_table\r\nSET    id = {id},\r\n       c_pid = {pid},\r\n       c_tipoDocumento = {tipoDocumento},\r\n       c_documento = {documento}\r\nWHERE  id = {id}"
+                            }
                         },
                         "subFormParentId": "pid"
                     }
