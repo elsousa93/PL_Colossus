@@ -129,7 +129,7 @@
                         "errorMessage": "Invalid number of rows",
                         "formDefId": "documentosProcesso",
                         "height": "500",
-                        "id": "field7",
+                        "id": "documentos_processo_id",
                         "label": "Form Grid",
                         "loadBinder": {
                             "className": "",
@@ -158,7 +158,7 @@
                         "storeBinder": {
                             "className": "org.joget.plugin.enterprise.MultirowFormBinder",
                             "properties": {
-                                "foreignKey": "pid",
+                                "foreignKey": "id",
                                 "formDefId": "documentosProcesso"
                             }
                         },
