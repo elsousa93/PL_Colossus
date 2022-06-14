@@ -150,7 +150,7 @@
                     "autoHandleFiles": "",
                     "autoHandleWorkflowVariable": "true",
                     "jdbcDatasource": "default",
-                    "sql": "SELECT * FROM app_fd_list_proce_colossus WHERE c_pid = 109251"
+                    "sql": "SELECT * FROM app_fd_lista_proce_colossus WHERE c_pid = 109251"
                 }
             },
             "permission": {
