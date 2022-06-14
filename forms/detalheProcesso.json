@@ -147,7 +147,7 @@
                                 "width": ""
                             },
                             {
-                                "format": "documento",
+                                "format": "detalheProcesso",
                                 "formatType": "file",
                                 "label": "Documento",
                                 "value": "documento",
