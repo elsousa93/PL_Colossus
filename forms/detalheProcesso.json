@@ -132,13 +132,8 @@
                         "id": "field7",
                         "label": "Form Grid",
                         "loadBinder": {
-                            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
-                            "properties": {
-                                "autoHandleFiles": "",
-                                "autoHandleWorkflowVariable": "true",
-                                "jdbcDatasource": "default",
-                                "sql": "Select * from app_fd_doc_proce_colossus"
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "options": [
                             {
