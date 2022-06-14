@@ -137,7 +137,7 @@
                                 "autoHandleFiles": "",
                                 "autoHandleWorkflowVariable": "true",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT * FROM app_fd_doc_proce_colossus WHERE c_id='#requestParam.pid#'"
+                                "sql": "SELECT * FROM app_fd_doc_proce_colossus WHERE id='#requestParam.pid#'"
                             }
                         },
                         "options": [
