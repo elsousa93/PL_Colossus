@@ -163,7 +163,7 @@
                         "storeBinder": {
                             "className": "org.joget.plugin.enterprise.MultirowFormBinder",
                             "properties": {
-                                "foreignKey": "id",
+                                "foreignKey": "pid",
                                 "formDefId": "documentosProcesso"
                             }
                         },
