@@ -6,23 +6,10 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
-                        "encryption": "",
                         "id": "pid",
-                        "label": "PID",
-                        "maxlength": "",
-                        "permissionHidden": "",
-                        "placeholder": "",
-                        "readonly": "true",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
+                        "useDefaultWhenEmpty": "",
                         "value": "",
                         "workflowVariable": ""
                     }
