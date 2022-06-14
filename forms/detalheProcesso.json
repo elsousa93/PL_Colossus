@@ -140,8 +140,34 @@
             "properties": {"width": "100%"}
         }],
         "properties": {
+            "comment": "",
             "id": "section1",
-            "label": "Section"
+            "join": "",
+            "label": "Section",
+            "loadBinder": {
+                "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
+                "properties": {
+                    "autoHandleFiles": "",
+                    "autoHandleWorkflowVariable": "true",
+                    "jdbcDatasource": "default",
+                    "sql": "SELECT * FROM app_fd_list_proce_colossus WHERE c_pid = '#requestParam.pid?sql#'"
+                }
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
