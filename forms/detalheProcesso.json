@@ -130,7 +130,7 @@
                         "formDefId": "documentosProcesso",
                         "height": "500",
                         "id": "documentos_processo_id",
-                        "label": "Form Grid",
+                        "label": "Documentos",
                         "loadBinder": {
                             "className": "org.joget.plugin.enterprise.MultirowFormBinder",
                             "properties": {
