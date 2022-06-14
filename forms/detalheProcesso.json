@@ -149,7 +149,7 @@
                                 "width": ""
                             },
                             {
-                                "format": "",
+                                "format": "documento",
                                 "formatType": "file",
                                 "label": "Documento",
                                 "value": "documento",
@@ -216,9 +216,25 @@
     "properties": {
         "description": "",
         "id": "detalheProcesso",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "Detalhes do Processo",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "lista_proce_colossus"
     }
 }
