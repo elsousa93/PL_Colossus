@@ -50,8 +50,11 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.tutorial.FileLinkDatalistFormatter",
+                "properties": {
+                    "attachment": "true",
+                    "formDefId": "documentosProcesso"
+                }
             },
             "headerAlignment": "",
             "hidden": "false",
