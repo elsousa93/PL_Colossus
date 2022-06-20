@@ -94,7 +94,7 @@
         "description": "",
         "id": "documentosProcesso",
         "loadBinder": {
-            "className": "",
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
         "name": "Documento do Processo",
