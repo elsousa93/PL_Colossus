@@ -41,7 +41,7 @@
                         "attachment": "true",
                         "fileType": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "documento",
+                        "id": "documento_processo",
                         "label": "Upload Documento",
                         "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
