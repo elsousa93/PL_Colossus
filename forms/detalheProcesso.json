@@ -143,7 +143,7 @@
                                 "format": "",
                                 "formatType": "text",
                                 "label": "Tipo de Documento",
-                                "value": "tipoDocumento",
+                                "value": "tipo_documento",
                                 "width": ""
                             },
                             {
