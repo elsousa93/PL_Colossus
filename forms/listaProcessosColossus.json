@@ -9,7 +9,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "dataCriacao",
+                        "id": "data_criacao",
                         "label": "Data de Criação",
                         "maxlength": "",
                         "placeholder": "",
@@ -51,7 +51,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "nomePasta",
+                        "id": "nome_pasta",
                         "label": "Nome da Pasta",
                         "maxlength": "",
                         "placeholder": "",
