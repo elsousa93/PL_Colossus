@@ -28,12 +28,34 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/CE99A5AEB1934B8294A1D343B3D2AD29?_mode=edit",
+                    "hrefColumn": "id;pid",
+                    "hrefParam": "id;pid",
+                    "label": "Hyperlink",
+                    "target": "_self",
+                    "visible": ""
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "Nome da Pasta",
             "name": "nome_pasta",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
