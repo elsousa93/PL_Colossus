@@ -38,17 +38,27 @@
                 {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
-                        "attachment": "False",
+                        "attachment": "true",
+                        "fileType": "",
                         "fileTypeMsg": "Invalid file type",
                         "id": "field3",
                         "label": "File Upload",
+                        "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
-                        "multiple": "False",
+                        "multiple": "",
+                        "padding": "",
                         "permissionType": "",
-                        "readonly": "False",
-                        "removeFile": "false",
+                        "readonly": "",
+                        "removeFile": "",
+                        "resizeHeight": "",
                         "resizeMethod": "",
-                        "resizeQuality": "0.8"
+                        "resizeQuality": "0.8",
+                        "resizeWidth": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
                     }
                 }
             ],
