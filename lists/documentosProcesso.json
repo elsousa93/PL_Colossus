@@ -37,33 +37,16 @@
             "hidden": "false",
             "id": "column_1",
             "label": "Tipo de Documento",
-            "name": "tipoDocumento",
+            "name": "tipo_documento",
             "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "org.joget.tutorial.FileLinkDatalistFormatter",
-                "properties": {
-                    "attachment": "true",
-                    "formDefId": "documentosProcesso"
-                }
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_2",
-            "label": "Documento",
-            "name": "documento",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "label": "Upload Documento",
+            "name": "documento_processo",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
