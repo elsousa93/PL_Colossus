@@ -9,7 +9,7 @@
                     "columnMapping": [
                         {
                             "col": "0",
-                            "field": "dataCriacao",
+                            "field": "data_criacao",
                             "formatted": "true"
                         },
                         {
@@ -19,7 +19,7 @@
                         },
                         {
                             "col": "2",
-                            "field": "nomePasta",
+                            "field": "nome_pasta",
                             "formatted": "true"
                         },
                         {
