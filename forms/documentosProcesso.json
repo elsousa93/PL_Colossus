@@ -23,12 +23,16 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "org.joget.plugin.enterprise.JdbcOptionsBinder",
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
-                                "addEmpty": "",
+                                "addEmptyOption": "",
                                 "cacheInterval": "",
-                                "jdbcDatasource": "default",
-                                "sql": "SELECT `colossus.c_tipo_documento` FROM app_fd_tipo_doc_colossus;",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "tipoDocumento",
+                                "groupingColumn": "",
+                                "idColumn": "tipo_documento",
+                                "labelColumn": "tipo_documento",
                                 "useAjax": ""
                             }
                         },
