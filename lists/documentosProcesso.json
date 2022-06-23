@@ -39,7 +39,7 @@
                     "confirmation": "",
                     "jdbcDatasource": "default",
                     "label": "JDBC",
-                    "query": "SELECT td.c_tipo_documento FROM app_fd_doc_proce_colossus d LEFT JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
+                    "query": "SELECT td.c_tipo_documento AS tipo_documento FROM app_fd_doc_proce_colossus d LEFT JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
                 }
             },
             "alignment": "",
