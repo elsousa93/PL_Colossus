@@ -10,26 +10,12 @@
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [{
-        "action": {
-            "className": "",
-            "properties": {}
-        },
-        "alignment": "",
-        "datalist_type": "column",
-        "exclude_export": "",
         "filterable": true,
-        "format": {
-            "className": "",
-            "properties": {}
-        },
-        "headerAlignment": "",
         "hidden": "false",
         "id": "column_0",
         "label": "Tipo de Documento",
-        "name": "tipos_documento",
-        "sortable": "false",
-        "style": "",
-        "width": ""
+        "name": "tipo_documento",
+        "sortable": "false"
     }],
     "considerFilterWhenGetTotal": "",
     "description": "",
