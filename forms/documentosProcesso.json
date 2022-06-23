@@ -32,7 +32,7 @@
                                 "formDefId": "tipoDocumento",
                                 "groupingColumn": "",
                                 "idColumn": "",
-                                "labelColumn": "tipos_documento",
+                                "labelColumn": "tipo_documento",
                                 "useAjax": ""
                             }
                         },
