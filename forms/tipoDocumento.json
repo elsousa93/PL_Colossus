@@ -8,7 +8,7 @@
                 "className": "org.joget.apps.form.lib.TextField",
                 "properties": {
                     "encryption": "",
-                    "id": "tipo_documento",
+                    "id": "tipos_documento",
                     "label": "Tipo de Documento",
                     "maxlength": "",
                     "placeholder": "",
