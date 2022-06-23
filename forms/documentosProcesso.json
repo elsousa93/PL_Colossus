@@ -19,7 +19,7 @@
                     "properties": {
                         "controlField": "",
                         "id": "tipo_documento",
-                        "label": "Select Box",
+                        "label": "Tipo de Documento",
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
@@ -28,7 +28,7 @@
                                 "addEmpty": "",
                                 "cacheInterval": "",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT c_tipo_documento FROM app_fd_tipo_doc_colossus",
+                                "sql": "SELECT * FROM app_fd_tipo_doc_colossus",
                                 "useAjax": ""
                             }
                         },
