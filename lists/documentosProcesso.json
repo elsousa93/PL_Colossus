@@ -1,89 +1,39 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
+            "customSelectionValue": "",
             "extraCondition": "",
-            "formDefId": "documentosProcesso"
+            "filters": [],
+            "formDefId": "documentosProcesso",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": [{
+                "fieldId": "tipo_doc_colossus.id",
+                "joinFieldId": "tipo_documento",
+                "tableName": "tipo_doc_colossus"
+            }]
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "true",
-            "id": "column_0",
-            "include_export": "",
-            "label": "PID",
-            "name": "pid",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
-                "properties": {
-                    "confirmation": "",
-                    "jdbcDatasource": "default",
-                    "label": "JDBC",
-                    "query": "SELECT td.c_tipo_documento AS tipo_documento FROM app_fd_doc_proce_colossus d LEFT JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
-                }
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Tipo de Documento",
-            "name": "tipo_documento",
-            "renderHtml": "false",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.tutorial.FileLinkDatalistFormatter",
-                "properties": {
-                    "attachment": "true",
-                    "formDefId": "documentosProcesso"
-                }
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_2",
+            "label": "tipo_doc_colossus.tipo_documento",
+            "name": "tipo_doc_colossus.tipo_documento",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
             "label": "Upload Documento",
             "name": "documento_processo",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
