@@ -33,12 +33,31 @@
             "width": ""
         },
         {
+            "action": {
+                "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
+                "properties": {
+                    "confirmation": "",
+                    "jdbcDatasource": "default",
+                    "label": "JDBC",
+                    "query": "SELECT td.c_tipo_documento FROM app_fd_doc_proce_colossus d LEFT JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
             "label": "Tipo de Documento",
             "name": "tipo_documento",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "action": {
