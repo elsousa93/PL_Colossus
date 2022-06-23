@@ -91,7 +91,7 @@
                     "autoHandleFiles": "",
                     "autoHandleWorkflowVariable": "true",
                     "jdbcDatasource": "default",
-                    "sql": "SELECT td.c_tipo_documento FROM app_fd_doc_proce_colossus d LEFT JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
+                    "sql": "SELECT td.c_tipo_documento FROM app_fd_doc_proce_colossus d JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
                 }
             },
             "permission": {
