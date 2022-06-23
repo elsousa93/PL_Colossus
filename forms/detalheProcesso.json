@@ -132,10 +132,12 @@
                         "id": "documentos_processo_id",
                         "label": "Documentos",
                         "loadBinder": {
-                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
                             "properties": {
-                                "foreignKey": "pid",
-                                "formDefId": "documentosProcesso"
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "jdbcDatasource": "default",
+                                "sql": "SELECT d.c_documento_processo, td.c_tipo_documento FROM app_fd_doc_proce_colossus d LEFT JOIN app_fd_tipo_doc_colossus td ON td.id=d.c_tipo_documento;"
                             }
                         },
                         "options": [
