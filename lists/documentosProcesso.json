@@ -55,6 +55,7 @@
             "id": "column_1",
             "label": "Tipo de Documento",
             "name": "tipo_documento",
+            "renderHtml": "false",
             "sortable": "false",
             "style": "",
             "width": ""
