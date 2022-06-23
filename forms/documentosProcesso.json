@@ -28,7 +28,7 @@
                                 "addEmpty": "",
                                 "cacheInterval": "",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT Colossus.c_tipo_documento FROM app_fd_tipo_doc_colossus;",
+                                "sql": "SELECT `Colossus.c_tipo_documento` FROM app_fd_tipo_doc_colossus;",
                                 "useAjax": ""
                             }
                         },
