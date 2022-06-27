@@ -1,19 +1,10 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "customSelectionValue": "",
             "extraCondition": "",
-            "filters": [],
-            "formDefId": "documentosProcesso",
-            "functionColumns": [],
-            "groupBy": "",
-            "joins": [{
-                "fieldId": "tipo_doc_colossus.tipo_documento",
-                "joinFieldId": "tipo_documento",
-                "tableName": "tipo_doc_colossus"
-            }]
+            "formDefId": "documentosProcesso"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -28,29 +19,12 @@
             "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "org.joget.tutorial.FileLinkDatalistFormatter",
-                "properties": {
-                    "attachment": "true",
-                    "formDefId": "documentosProcesso"
-                }
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
             "label": "Upload Documento",
             "name": "documento_processo",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
