@@ -22,9 +22,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
-            "label": "tipo_doc_colossus.tipo_documento",
-            "name": "tipo_doc_colossus.tipo_documento",
+            "id": "column_0",
+            "label": "Tipo de Documento",
+            "name": "tipo_documento",
             "sortable": "false"
         },
         {
