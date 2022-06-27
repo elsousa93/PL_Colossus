@@ -10,7 +10,7 @@
             "functionColumns": [],
             "groupBy": "",
             "joins": [{
-                "fieldId": "tipo_doc_colossus.id",
+                "fieldId": "tipo_doc_colossus.tipo_documento",
                 "joinFieldId": "tipo_documento",
                 "tableName": "tipo_doc_colossus"
             }]
