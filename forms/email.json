@@ -114,7 +114,7 @@
         },
         "postProcessor": {
             "className": "org.joget.apps.app.lib.BeanShellTool",
-            "properties": {"script": "System.out.println(\"Teste\");"}
+            "properties": {"script": "import org.joget.apps.app.model.AppDefinition;\r\nimport org.joget.apps.app.service.AppService;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.workflow.model.WorkflowAssignment;\r\n\r\nAppService appService = (AppService) AppUtil.getApplicationContext().getBean(\"appService\");\r\nString id = appService.getOriginProcessId(workflowAssignment.getProcessId());\r\n\r\nSystem.out.println(id);"}
         },
         "postProcessorRunOn": "create",
         "storeBinder": {
