@@ -124,7 +124,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "#currentUser.department.hod.fullName#   \n\nTeste",
+                "message": "#date.DAY+/-INTEGER.FORMAT|TIMEZONE[DATE_VALUE|DATE_VALUE_FORMAT|TIMEZONE]#\n\nTeste",
                 "password": "%%%%SGP/uoaxkvWIYIK+Nrk5QAiYHBwUgkcT%%%%",
                 "port": "587",
                 "security": "TLS",
