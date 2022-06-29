@@ -124,7 +124,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "",
+                "message": "Teste",
                 "password": "%%%%o4r9YG2XJyYHinRQtVfu0yB8THZ4N9Iu%%%%",
                 "port": "587",
                 "security": "TLS",
