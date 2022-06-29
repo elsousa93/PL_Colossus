@@ -114,7 +114,7 @@
         },
         "postProcessor": {
             "className": "org.joget.apps.app.lib.BeanShellTool",
-            "properties": {"script": "import org.joget.apps.app.model.AppDefinition;\r\nimport org.joget.apps.app.service.AppService;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.workflow.model.WorkflowAssignment;\r\n\r\nAppService appService = (AppService) AppUtil.getApplicationContext().getBean(\"appService\");\r\nString id = appService.getOriginProcessId(workflowAssignment.getProcessId());\r\n\r\nFormRowSet rowSet = appService.loadFormData(appDef.getAppId(), appDef.getVersion().toString(), \"email\", id);\r\n#beanshell.email_id[emailId={rowSet.get(0).getProperty(\"id\")}]#\r\nSystem.out.println(rowSet.get(0).getProperty(\"id\"));"}
+            "properties": {"script": "import org.joget.apps.app.model.AppDefinition;\r\nimport org.joget.apps.app.service.AppService;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.workflow.model.WorkflowAssignment;\r\n\r\nAppService appService = (AppService) AppUtil.getApplicationContext().getBean(\"appService\");\r\nString id = appService.getOriginProcessId(workflowAssignment.getProcessId());\r\n\r\nFormRowSet rowSet = appService.loadFormData(appDef.getAppId(), appDef.getVersion().toString(), \"email\", id);\r\n#beanshell.email_id[emailId={rowSet.get(0).getProperty(\"id\")}]#\r\nSystem.out.println(#beanshell.email_id#);"}
         },
         "postProcessorRunOn": "create",
         "storeBinder": {
