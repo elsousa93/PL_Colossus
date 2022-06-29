@@ -124,7 +124,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "#date.DAY+/-INTEGER.FORMAT|TIMEZONE[DATE_VALUE|DATE_VALUE_FORMAT|TIMEZONE]#\n\n#form.app_fd_email_colossus.c_message#\n\nTeste",
+                "message": "#date.DAY+/-INTEGER.FORMAT|TIMEZONE[DATE_VALUE|DATE_VALUE_FORMAT|TIMEZONE]#\n\n#form.email_colossus.message#\n\nTeste",
                 "password": "%%%%BlsjUTEeFNcvsGyKjABT2imavdpneH8Z%%%%",
                 "port": "587",
                 "security": "TLS",
