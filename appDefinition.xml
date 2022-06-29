@@ -19,14 +19,6 @@
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
-      <appResource>
-         <id>MillenniumFotter.jpg</id>
-         <appId>colossus</appId>
-         <appVersion>1</appVersion>
-         <filesize>5903</filesize>
-         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
-         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
-      </appResource>
    </resourceList>
    <license>kCmlZW/AvlAoO5J5p0UbnU0j93grj5S3mhHC5cQtD6Hj7hnV/F5O6VuVgETtTG6I</license>
 </appDefinition>
