@@ -124,7 +124,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "#form.email.message#",
+                "message": "#currentUser.department.hod.fullName#",
                 "password": "%%%%3fWCpoA1bqBn81DbAYXc2uPglr0WLids%%%%",
                 "port": "587",
                 "security": "TLS",
