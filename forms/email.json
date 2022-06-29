@@ -122,42 +122,8 @@
             "properties": {}
         },
         "postProcessor": {
-            "className": "org.joget.apps.app.lib.EmailTool",
-            "properties": {
-                "bcc": "",
-                "cc": "",
-                "fields": [{
-                    "embed": "false",
-                    "field": "attachment"
-                }],
-                "files": [
-                    {
-                        "embed": "true",
-                        "fileName": "MillenniumFooter.jpg",
-                        "path": "http://192.168.0.104:8080/jw/web/app/colossus/resources/MillenniumFooter.jpg",
-                        "type": "url"
-                    },
-                    {
-                        "embed": "false",
-                        "fileName": "Millennium.jpg",
-                        "path": "http://192.168.0.104:8080/jw/web/app/colossus/resources/Millennium.jpg",
-                        "type": "url"
-                    }
-                ],
-                "formDefId": "email",
-                "from": "fenix_dev@plataformalegal.net",
-                "host": "smtp-mail.outlook.com",
-                "icsAttachement": "",
-                "isHtml": "true",
-                "message": "#form.email_colossus.message#",
-                "password": "%%%%JZVQMLtRc627Ei8Rvfry/0p/uCJJcqnC%%%%",
-                "port": "587",
-                "security": "TLS",
-                "subject": "#form.email_colossus.subject#",
-                "toParticipantId": "",
-                "toSpecific": "#form.email_colossus.to#",
-                "username": "fenix_dev@plataformalegal.net"
-            }
+            "className": "org.joget.apps.app.lib.BeanShellTool",
+            "properties": {"script": "System.out.println(\"#form.email_colossus.bodyHtml#\");"}
         },
         "postProcessorRunOn": "create",
         "storeBinder": {
