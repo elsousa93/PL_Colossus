@@ -117,20 +117,23 @@
             "properties": {
                 "bcc": "",
                 "cc": "",
-                "fields": [],
+                "fields": [{
+                    "embed": "false",
+                    "field": ""
+                }],
                 "files": [],
-                "formDefId": "",
+                "formDefId": "email",
                 "from": "fenix_dev@plataformalegal.net",
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "#date.DAY+/-INTEGER.FORMAT|TIMEZONE[DATE_VALUE|DATE_VALUE_FORMAT|TIMEZONE]#\n\n#form.email_colossus.message#\n\nTeste",
-                "password": "%%%%BlsjUTEeFNcvsGyKjABT2imavdpneH8Z%%%%",
+                "message": "#form.email_colossus.message#",
+                "password": "%%%%JZVQMLtRc627Ei8Rvfry/0p/uCJJcqnC%%%%",
                 "port": "587",
                 "security": "TLS",
-                "subject": "",
+                "subject": "#form.email_colossus.subject#",
                 "toParticipantId": "",
-                "toSpecific": "dpardal@neyond.pt",
+                "toSpecific": "#form.email_colossus.to#",
                 "username": "fenix_dev@plataformalegal.net"
             }
         },
