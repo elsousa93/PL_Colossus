@@ -130,7 +130,20 @@
                     "embed": "false",
                     "field": "attachment"
                 }],
-                "files": [],
+                "files": [
+                    {
+                        "embed": "true",
+                        "fileName": "MillenniumFooter.jpg",
+                        "path": "http://192.168.0.104:8080/jw/web/app/colossus/resources/MillenniumFooter.jpg",
+                        "type": "url"
+                    },
+                    {
+                        "embed": "false",
+                        "fileName": "Millennium.jpg",
+                        "path": "http://192.168.0.104:8080/jw/web/app/colossus/resources/Millennium.jpg",
+                        "type": "url"
+                    }
+                ],
                 "formDefId": "email",
                 "from": "fenix_dev@plataformalegal.net",
                 "host": "smtp-mail.outlook.com",
