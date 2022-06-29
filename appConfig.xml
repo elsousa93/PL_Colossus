@@ -12,7 +12,18 @@
       <environmentVariable>
          <id>email_id</id>
          <appId>colossus</appId>
-         <value></value>
+         <appVersion>1</appVersion>
+         <value>import org.joget.apps.app.service.AppUtil;
+import org.joget.commons.util.LogUtil;
+
+if(emailId == null || emailId.isEmpty()){
+    return &quot;No Email ID&quot;;
+}
+
+result = emailId; 
+result = AppUtil.processHashVariable(result, null, null, null);
+
+return result;</value>
          <remarks></remarks>
       </environmentVariable>
    </environmentVariableList>
