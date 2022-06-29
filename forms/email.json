@@ -61,7 +61,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "<p>Teste<\/p>",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
@@ -71,7 +71,7 @@
                         "autoPopulate": "",
                         "id": "field5",
                         "label": "",
-                        "value": "<div style=\"border: 1px solid; display: inline_block; justify-content: center;\">\r\n    <div style=\"display: flex; justify-content: space-between;\">\r\n        <img src=\"#appResource.Millennium.jpg#\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\r\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\r\n<\/div>\r\n<textarea style=\"resize: none;\r\n        height: 300px;\r\n        width: 100%;\r\n        border: none;\r\n        outline: none;\">\r\n    Estimado(a) Sr(a).\r\n    nome_texto\r\n    Informamos que procedemos à validação final da documentação que nos enviou.\r\n    Estamos, naturalmente, ao seu inteiro dispor para qualquer esclarecimento adicional que tenha por conveniente.\r\n    / PEDIDO DE CONTACTO /\r\n    Em qualquer momento, pode solicitar o nosso contacto.\r\n    Envie um SMS para o Tel. N.º 927 820 110 com indicação do número do processo: workflow_texto\r\n    O envio do SMS está sujeito ao tarifário que contratou com o seu operador.\r\n    No espaço máximo de 1 hora receberá um contacto dos nossos serviços.\r\n    Com os melhores cumprimentos,\r\n<\/textarea>\r\n<img src=\"#appResource.MillenniumFooter.jpg#\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\r\n<\/div>\r\n<div width= \"300px\" style=\"border: 1px solid;\"><\/div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+                        "value": "\r\n<div height=100px style=\" margin-left: 27%; margin-right: 27%; border: 1px solid; display: inline_block; \">\r\n    <div style=\"display: flex; justify-content: space-between;\">\r\n        <img src=\"#appResource.Millennium.jpg#\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\r\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\r\n<\/div>\r\n<textarea style=\"resize: none;\r\n        height: 300px;\r\n        width: 100%;\r\n        border: none;\r\n        outline: none;\">\r\n    Estimado(a) Sr(a).\r\n    \r\n    nome_texto\r\n    \r\n    Informamos que procedemos à validação final da documentação que nos enviou.\r\n    \r\n    Estamos, naturalmente, ao seu inteiro dispor para qualquer esclarecimento adicional que tenha por conveniente.\r\n    \r\n    / PEDIDO DE CONTACTO /\r\n    \r\n    Em qualquer momento, pode solicitar o nosso contacto.\r\n    \r\n    Envie um SMS para o Tel. N.º 927 820 110 com indicação do número do processo: workflow_texto\r\n    \r\n    O envio do SMS está sujeito ao tarifário que contratou com o seu operador.\r\n    \r\n    No espaço máximo de 1 hora receberá um contacto dos nossos serviços.\r\n    \r\n    Com os melhores cumprimentos,\r\n<\/textarea>\r\n<img src=\"#appResource.MillenniumFooter.jpg#\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\r\n<\/div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
                     }
                 },
                 {
