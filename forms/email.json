@@ -71,7 +71,7 @@
                         "attachment": "true",
                         "fileType": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "field4",
+                        "id": "attachment",
                         "label": "File Upload",
                         "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
@@ -117,10 +117,16 @@
             "properties": {
                 "bcc": "",
                 "cc": "",
-                "fields": [{
-                    "embed": "false",
-                    "field": ""
-                }],
+                "fields": [
+                    {
+                        "embed": "false",
+                        "field": ""
+                    },
+                    {
+                        "embed": "false",
+                        "field": ""
+                    }
+                ],
                 "files": [],
                 "formDefId": "email",
                 "from": "fenix_dev@plataformalegal.net",
