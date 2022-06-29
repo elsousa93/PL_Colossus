@@ -123,7 +123,7 @@
         },
         "postProcessor": {
             "className": "org.joget.apps.app.lib.BeanShellTool",
-            "properties": {"script": "System.out.println(\"#form.email_colossus.bodyHtml#\");"}
+            "properties": {"script": "System.out.println(\"#form.email_colossus.bodyHtml#\");\nSystem.out.println(\"TEEEEEEEEEEEEESTE\");"}
         },
         "postProcessorRunOn": "create",
         "storeBinder": {
