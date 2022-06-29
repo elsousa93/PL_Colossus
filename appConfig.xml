@@ -8,7 +8,14 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>email_id</id>
+         <appId>colossus</appId>
+         <value></value>
+         <remarks></remarks>
+      </environmentVariable>
+   </environmentVariableList>
    <messageList/>
    <resourceList/>
    <license>kCmlZW/AvlAoO5J5p0UbnU0j93grj5S3mhHC5cQtD6Hj7hnV/F5O6VuVgETtTG6I</license>
