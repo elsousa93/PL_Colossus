@@ -149,7 +149,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "#form.email_colossus.bodyHtml#",
+                "message": "#form.email_colossus.message#",
                 "password": "%%%%JZVQMLtRc627Ei8Rvfry/0p/uCJJcqnC%%%%",
                 "port": "587",
                 "security": "TLS",
