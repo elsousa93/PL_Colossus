@@ -117,16 +117,10 @@
             "properties": {
                 "bcc": "",
                 "cc": "",
-                "fields": [
-                    {
-                        "embed": "false",
-                        "field": ""
-                    },
-                    {
-                        "embed": "false",
-                        "field": ""
-                    }
-                ],
+                "fields": [{
+                    "embed": "false",
+                    "field": "attachment"
+                }],
                 "files": [],
                 "formDefId": "email",
                 "from": "fenix_dev@plataformalegal.net",
