@@ -133,13 +133,13 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "",
-                "message": "",
+                "message": "#form.email_colossus.message#",
                 "password": "%%%%a0pkjb0APGrVTZBfTsjcWIq21POfdRSK%%%%",
                 "port": "587",
                 "security": "TLS",
-                "subject": "",
+                "subject": "#form.email_colossus.subject#",
                 "toParticipantId": "",
-                "toSpecific": "",
+                "toSpecific": "#form.email_colossus.to#",
                 "username": "fenix_dev@plataformalegal.net"
             }
         },
