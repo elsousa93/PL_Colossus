@@ -122,8 +122,26 @@
             "properties": {}
         },
         "postProcessor": {
-            "className": "org.joget.apps.app.lib.BeanShellTool",
-            "properties": {"script": "System.out.println(\"#form.email_colossus.to#\");\nSystem.out.println(\"TEEEEEEEEEEEEESTE\");"}
+            "className": "org.joget.apps.app.lib.EmailTool",
+            "properties": {
+                "bcc": "",
+                "cc": "",
+                "fields": [],
+                "files": [],
+                "formDefId": "",
+                "from": "fenix_dev@plataformalegal.net",
+                "host": "smtp-mail.outlook.com",
+                "icsAttachement": "",
+                "isHtml": "",
+                "message": "",
+                "password": "%%%%a0pkjb0APGrVTZBfTsjcWIq21POfdRSK%%%%",
+                "port": "587",
+                "security": "TLS",
+                "subject": "",
+                "toParticipantId": "",
+                "toSpecific": "",
+                "username": "fenix_dev@plataformalegal.net"
+            }
         },
         "postProcessorRunOn": "create",
         "storeBinder": {
