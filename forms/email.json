@@ -48,30 +48,21 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextArea",
+                    "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
-                        "cols": "20",
                         "id": "message",
-                        "label": "Message",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "rows": "5",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "<div height=100px style=\" margin-left: 27%; margin-right: 27%; border: 1px solid; display: inline_block; \">\n    <div style=\"display: flex; justify-content: space-between;\">\n        <img src=\"https://i.picsum.photos/id/605/200/300.jpg?hmac=XxO9Fq91nFhrH3zq-9AlrpU84EnKslY5CeTA_6dBlRg\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\n<\/div>\n<textarea style=\"resize: none;\n        height: 300px;\n        width: 100%;\n        border: none;\n        outline: none;\">\n    Estimado(a) Sr(a).\n    \n    nome_texto\n    \n    Informamos que procedemos à validação final da documentação que nos enviou.\n    \n    Estamos, naturalmente, ao seu inteiro dispor para qualquer esclarecimento adicional que tenha por conveniente.\n    \n    / PEDIDO DE CONTACTO /\n    \n    Em qualquer momento, pode solicitar o nosso contacto.\n    \n    Envie um SMS para o Tel. N.º 927 820 110 com indicação do número do processo: workflow_texto\n    \n    O envio do SMS está sujeito ao tarifário que contratou com o seu operador.\n    \n    No espaço máximo de 1 hora receberá um contacto dos nossos serviços.\n    \n    Com os melhores cumprimentos,\n<\/textarea>\n<img src=\"https://i.picsum.photos/id/605/200/300.jpg?hmac=XxO9Fq91nFhrH3zq-9AlrpU84EnKslY5CeTA_6dBlRg\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\n<\/div>",
+                        "useDefaultWhenEmpty": "",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
-                        "autoPopulate": "",
+                        "autoPopulate": "true",
                         "id": "bodyHtml",
                         "label": "",
-                        "value": "<div height=100px style=\" margin-left: 27%; margin-right: 27%; border: 1px solid; display: inline_block; \">\r\n    <div style=\"display: flex; justify-content: space-between;\">\r\n        <img src=\"http://192.168.0.104:8080/jw/web/app/colossus/resources/Millennium.jpg\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\r\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\r\n<\/div>\r\n<textarea style=\"resize: none;\r\n        height: 300px;\r\n        width: 100%;\r\n        border: none;\r\n        outline: none;\">\r\n    Estimado(a) Sr(a).\r\n    \r\n    nome_texto\r\n    \r\n    Informamos que procedemos à validação final da documentação que nos enviou.\r\n    \r\n    Estamos, naturalmente, ao seu inteiro dispor para qualquer esclarecimento adicional que tenha por conveniente.\r\n    \r\n    / PEDIDO DE CONTACTO /\r\n    \r\n    Em qualquer momento, pode solicitar o nosso contacto.\r\n    \r\n    Envie um SMS para o Tel. N.º 927 820 110 com indicação do número do processo: workflow_texto\r\n    \r\n    O envio do SMS está sujeito ao tarifário que contratou com o seu operador.\r\n    \r\n    No espaço máximo de 1 hora receberá um contacto dos nossos serviços.\r\n    \r\n    Com os melhores cumprimentos,\r\n<\/textarea>\r\n<img src=\"http://192.168.0.104:8080/jw/web/app/colossus/resources/MillenniumFooter.jpg\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\r\n<\/div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+                        "value": "<div height=100px style=\" margin-left: 27%; margin-right: 27%; border: 1px solid; display: inline_block; \">\r\n    <div style=\"display: flex; justify-content: space-between;\">\r\n        <img src=\"#appResource.Millennium.jpg#\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\r\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\r\n<\/div>\r\n<textarea id=\"msg\" name=\"msg\" style=\"resize: none;\r\n        height: 300px;\r\n        width: 100%;\r\n        border: none;\r\n        outline: none;\">\r\n    Estimado(a) Sr(a).\r\n    \r\n    nome_texto\r\n    \r\n    Informamos que procedemos à validação final da documentação que nos enviou.\r\n    \r\n    Estamos, naturalmente, ao seu inteiro dispor para qualquer esclarecimento adicional que tenha por conveniente.\r\n    \r\n    / PEDIDO DE CONTACTO /\r\n    \r\n    Em qualquer momento, pode solicitar o nosso contacto.\r\n    \r\n    Envie um SMS para o Tel. N.º 927 820 110 com indicação do número do processo: workflow_texto\r\n    \r\n    O envio do SMS está sujeito ao tarifário que contratou com o seu operador.\r\n    \r\n    No espaço máximo de 1 hora receberá um contacto dos nossos serviços.\r\n    \r\n    Com os melhores cumprimentos,\r\n<\/textarea>\r\n<img src=\"#appResource.Millennium.jpg#\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\r\n<\/div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
                     }
                 },
                 {
