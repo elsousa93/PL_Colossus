@@ -124,7 +124,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "true",
-                "message": "<img src=\"#appResource.Millennium.jpg#\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\n#form.email_colossus.message#",
+                "message": "Teste",
                 "password": "%%%%a0pkjb0APGrVTZBfTsjcWIq21POfdRSK%%%%",
                 "port": "587",
                 "security": "TLS",
