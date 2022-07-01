@@ -48,15 +48,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.HiddenField",
-                    "properties": {
-                        "id": "message",
-                        "useDefaultWhenEmpty": "",
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
                         "autoPopulate": "true",
