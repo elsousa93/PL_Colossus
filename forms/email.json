@@ -132,7 +132,7 @@
                 "from": "fenix_dev@plataformalegal.net",
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
-                "isHtml": "",
+                "isHtml": "true",
                 "message": "#form.email_colossus.message#",
                 "password": "%%%%a0pkjb0APGrVTZBfTsjcWIq21POfdRSK%%%%",
                 "port": "587",
