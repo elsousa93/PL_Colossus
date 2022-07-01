@@ -115,7 +115,7 @@
                 "host": "smtp-mail.outlook.com",
                 "icsAttachement": "",
                 "isHtml": "true",
-                "message": "<div height=100px style=\" margin-left: 27%; margin-right: 27%; border: 1px solid; display: inline_block; \">\n    <div style=\"display: flex; justify-content: space-between;\">\n        <img src=#appResource.Millennium.jpg# alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\n<\/div>\n\n<textarea>\n#form.email_colossus.msg#\n<\/textarea>\n\n\n<img src=\"#appResource.Millennium.jpg#\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\n<\/div>",
+                "message": "<div height=100px style=\" margin-left: 27%; margin-right: 27%; border: 1px solid; display: inline_block; \">\n    <div style=\"display: flex; justify-content: space-between;\">\n        <img src=\"http://192.168.0.104:8080/jw/web/app/colossus/resources/Millennium.jpg\" alt=\"Logotipo Millennium\" width=\"334\" height=\"52\">\n        <div><p>PARABÉNS A DOCUMENTAÇÃO ESTÁ PRONTA<\/p><p>PARA A FORMALIZAÇÃO DO CONTRATO<\/p><\/div>\n<\/div>\n\n<span>\n#form.email_colossus.msg#\n<\/span>\n\n\n<img src=\"http://192.168.0.104:8080/jw/web/app/colossus/resources/MillenniumFooter.jpg\" alt=\"Logotipo MillenniumFooter\" width=\"100%\" height=\"26\">\n<\/div>",
                 "password": "%%%%a0pkjb0APGrVTZBfTsjcWIq21POfdRSK%%%%",
                 "port": "587",
                 "security": "TLS",
