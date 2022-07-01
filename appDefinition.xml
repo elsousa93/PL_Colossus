@@ -16,8 +16,8 @@
          <appId>colossus</appId>
          <appVersion>1</appVersion>
          <filesize>5742</filesize>
-         <permissionClass>org.joget.plugin.enterprise.AnonymousUserviewPermission</permissionClass>
-         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.Millennium.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.plugin.enterprise.AnonymousUserviewPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.Millennium.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>MillenniumFooter.jpg</id>
