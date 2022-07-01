@@ -26,6 +26,51 @@ result = AppUtil.processHashVariable(result, null, null, null);
 return result;</value>
          <remarks></remarks>
       </environmentVariable>
+      <environmentVariable>
+         <id>generateImage</id>
+         <appId>colossus</appId>
+         <value>import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
+import java.awt.image.BufferedImage;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import javax.imageio.ImageIO;
+import org.apache.axis.encoding.Base64;
+import java.net.URLDecoder;
+ 
+//Here defines the signature image size
+int width = 200;
+int height = 80;
+ 
+try {
+    String jsonstr = URLDecoder.decode(json[0], &quot;UTF-8&quot;);
+    JSONArray jarr = new JSONArray(jsonstr);
+    BufferedImage offscreenImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+    Graphics2D g2 = offscreenImage.createGraphics();
+    g2.setColor(Color.white);
+    g2.fillRect(0,0,width,height);
+    g2.setPaint(Color.black);
+    g2.setStroke(new BasicStroke(2));
+    g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+    for (int i = 0; i &lt; jarr.length(); i++) {
+        JSONObject jobj = jarr.get(i);
+        g2.drawLine(jobj.getInt(&quot;lx&quot;), jobj.getInt(&quot;ly&quot;), jobj.getInt(&quot;mx&quot;), jobj.getInt(&quot;my&quot;));
+    }
+ 
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    ImageIO.write( offscreenImage, &quot;png&quot;, baos );
+    baos.flush();
+    byte[] imageInByte = baos.toByteArray();
+    baos.close();
+    String base64bytes = Base64.encode(imageInByte);
+    String src = &quot;data:image/png;base64,&quot; + base64bytes;
+ 
+    return src;
+} catch (Exception e) { } </value>
+         <remarks></remarks>
+      </environmentVariable>
    </environmentVariableList>
    <messageList/>
    <resourceList/>
