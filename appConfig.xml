@@ -58,6 +58,7 @@ try {
       <environmentVariable>
          <id>templateEmail</id>
          <appId>colossus</appId>
+         <appVersion>1</appVersion>
          <value>Estimado(a) Sr(a).
     
     nome_texto
