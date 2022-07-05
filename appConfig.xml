@@ -55,6 +55,30 @@ try {
 } catch (Exception e) { } </value>
          <remarks></remarks>
       </environmentVariable>
+      <environmentVariable>
+         <id>templateEmail</id>
+         <appId>colossus</appId>
+         <value>Estimado(a) Sr(a).
+    
+    nome_texto
+    
+    Informamos que procedemos à validação final da documentação que nos enviou.
+    
+    Estamos, naturalmente, ao seu inteiro dispor para qualquer esclarecimento adicional que tenha por conveniente.
+    
+    / PEDIDO DE CONTACTO /
+    
+    Em qualquer momento, pode solicitar o nosso contacto.
+    
+    Envie um SMS para o Tel. N.º 927 820 110 com indicação do número do processo: workflow_texto
+    
+    O envio do SMS está sujeito ao tarifário que contratou com o seu operador.
+    
+    No espaço máximo de 1 hora receberá um contacto dos nossos serviços.
+    
+    Com os melhores cumprimentos,</value>
+         <remarks></remarks>
+      </environmentVariable>
    </environmentVariableList>
    <messageList/>
    <resourceList/>
