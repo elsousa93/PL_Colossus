@@ -40,7 +40,7 @@
                                 "addEmptyOption": "true",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "c_nome_campo = 'nome_campo'",
+                                "extraCondition": "c_nome_campo = 'tipo_documento'",
                                 "formDefId": "listaValores",
                                 "groupingColumn": "",
                                 "idColumn": "id",
