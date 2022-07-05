@@ -16,16 +16,16 @@
          <appId>colossus</appId>
          <appVersion>1</appVersion>
          <filesize>5742</filesize>
-         <permissionClass>org.joget.apps.userview.lib.BeanShellPermission</permissionClass>
-         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.Millennium.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.BeanShellPermission&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;return true;&quot;}}}</permissionProperties>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.Millennium.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>MillenniumFooter.jpg</id>
          <appId>colossus</appId>
          <appVersion>1</appVersion>
          <filesize>5903</filesize>
-         <permissionClass>org.joget.plugin.enterprise.AnonymousUserviewPermission</permissionClass>
-         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.MillenniumFooter.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.plugin.enterprise.AnonymousUserviewPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
+         <permissionClass>org.joget.apps.userview.lib.BeanShellPermission</permissionClass>
+         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.MillenniumFooter.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.BeanShellPermission&quot;,&quot;properties&quot;:{&quot;script&quot;:&quot;return true;&quot;}}}</permissionProperties>
       </appResource>
    </resourceList>
    <license>kCmlZW/AvlAoO5J5p0UbnU0j93grj5S3mhHC5cQtD6Hj7hnV/F5O6VuVgETtTG6I</license>
