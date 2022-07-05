@@ -41,9 +41,9 @@
                                 "cacheInterval": "",
                                 "emptyLabel": "",
                                 "extraCondition": "c_nome_campo = 'nome_campo'",
-                                "formDefId": "adicionaOpcaoListaValores",
+                                "formDefId": "listaValores",
                                 "groupingColumn": "",
-                                "idColumn": "value",
+                                "idColumn": "id",
                                 "labelColumn": "label",
                                 "useAjax": ""
                             }
