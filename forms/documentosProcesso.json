@@ -28,11 +28,11 @@
                                 "addEmptyOption": "true",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "",
-                                "formDefId": "tipoDocumento",
+                                "extraCondition": "c_nome_campo = 'tipo_documento'",
+                                "formDefId": "listaValores",
                                 "groupingColumn": "",
-                                "idColumn": "tipo_documento",
-                                "labelColumn": "tipo_documento",
+                                "idColumn": "id",
+                                "labelColumn": "label",
                                 "useAjax": ""
                             }
                         },
