@@ -67,69 +67,6 @@
                         "value": "",
                         "workflowVariable": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "predio",
-                        "label": "Prédio",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "freguesia",
-                        "label": "Freguesia",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "conservatoria",
-                        "label": "Conservatoria",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
                 }
             ],
             "properties": {"width": "100%"}
