@@ -10,7 +10,7 @@
                     "properties": {
                         "id": "pid",
                         "useDefaultWhenEmpty": "",
-                        "value": "",
+                        "value": "#form.lista_proce_colossus.pid#",
                         "workflowVariable": ""
                     }
                 },
