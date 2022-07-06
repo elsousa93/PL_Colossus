@@ -1,11 +1,54 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "criarImovel",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "pid",
+            "name": "pid",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Predio",
+            "name": "predio",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Freguesia",
+            "name": "freguesia",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Conservatoria",
+            "name": "conservatoria",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "listaImoveis",
@@ -13,5 +56,26 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "deleteSubformData": "",
+            "formDefId": "criarImovel",
+            "label": "Delete",
+            "rules": []
+        },
+        "type": "text"
+    }],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
