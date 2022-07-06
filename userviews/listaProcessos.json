@@ -398,6 +398,37 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "criarImovel",
+                        "id": "387138970EE34B9A9FB39D1295CC4CE6",
+                        "keyName": "",
+                        "label": "Form",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
