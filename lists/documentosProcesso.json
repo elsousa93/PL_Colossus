@@ -18,24 +18,14 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "listas_de_valores.label",
-            "name": "listas_de_valores.label",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Upload Documento",
-            "name": "documento_processo",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_1",
+        "label": "Upload Documento",
+        "name": "documento_processo",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
