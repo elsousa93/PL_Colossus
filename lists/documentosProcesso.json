@@ -1,10 +1,19 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
+            "customSelectionValue": "",
             "extraCondition": "",
-            "formDefId": "documentosProcesso"
+            "filters": [],
+            "formDefId": "documentosProcesso",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": [{
+                "fieldId": "listas_de_valores.label",
+                "joinFieldId": "id",
+                "tableName": "listas_de_valores"
+            }]
         }
     },
     "buttonPosition": "bottomLeft",
@@ -14,8 +23,8 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
-            "label": "Tipo de Documento",
-            "name": "tipo_documento",
+            "label": "listas_de_valores.label",
+            "name": "listas_de_valores.label",
             "sortable": "false"
         },
         {
