@@ -76,6 +76,13 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "field5",
+                        "useDefaultWhenEmpty": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
