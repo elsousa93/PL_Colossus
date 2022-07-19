@@ -81,12 +81,20 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_data_criacao",
+            "hidden": "",
             "id": "filter_1",
             "label": "Data de Criação",
             "name": "data_criacao",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.DateDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "format": "mm/dd/yy",
+                    "formatJava": "MM/dd/yyyy",
+                    "yearRange": "c-10:c+10"
+                }
             }
         }
     ],
