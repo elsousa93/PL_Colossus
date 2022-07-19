@@ -98,7 +98,7 @@
                         "customCsvDelimiter": "",
                         "customCsvQuote": "",
                         "customFooter": "",
-                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        \n    });\n<\/script>",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"label[for='csvImportFile']\").text(\"Selecionar Ficheiro\");\n        $(\"label[for='mode']\").text(\"Modo de Importação\");\n        $(\"label[for='validateData']\").text(\"Validar Dados?\");\n    });\n<\/script>",
                         "customId": "",
                         "disabledDelete": "",
                         "formDefId": "listaProcessosColossus",
