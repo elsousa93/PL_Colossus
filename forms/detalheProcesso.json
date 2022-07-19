@@ -187,7 +187,7 @@
             "comment": "",
             "id": "section1",
             "join": "",
-            "label": "Section",
+            "label": "Processo",
             "loadBinder": {
                 "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
                 "properties": {
