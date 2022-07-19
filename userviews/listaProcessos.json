@@ -98,7 +98,7 @@
                         "customCsvDelimiter": "",
                         "customCsvQuote": "",
                         "customFooter": "",
-                        "customHeader": "<p>TESTE<\/p>",
+                        "customHeader": "",
                         "customId": "",
                         "disabledDelete": "",
                         "formDefId": "listaProcessosColossus",
