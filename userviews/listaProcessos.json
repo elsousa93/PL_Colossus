@@ -230,22 +230,7 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                }
-            ],
-            "properties": {
-                "comment": "",
-                "hide": "yes",
-                "id": "category-F94CD60B53D34658A2CFB0DBA0BC0C58",
-                "label": "Hide",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
+                },
                 {
                     "className": "org.joget.plugin.enterprise.CsvImportMenu",
                     "properties": {
@@ -301,7 +286,22 @@
                         "userviewCacheScope": "",
                         "userviewKey": ""
                     }
-                },
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "hide": "yes",
+                "id": "category-F94CD60B53D34658A2CFB0DBA0BC0C58",
+                "label": "Hide",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
                 {
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {
@@ -413,7 +413,7 @@
                 "disablePwa": "",
                 "displayCategoryLabel": "",
                 "enableResponsiveSwitch": "",
-                "fav_icon": "",
+                "fav_icon": "#appResource.FileSystem.png#",
                 "fontColor": "WHITE",
                 "fontControl": "",
                 "homeAttractBanner": "",
@@ -423,7 +423,7 @@
                 "js": "",
                 "loginPageBottom": "",
                 "loginPageTop": "",
-                "logo": "",
+                "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
                 "menuFontColor": "BLACK",
                 "primaryColor": "INDIGO",
                 "profile": "",
