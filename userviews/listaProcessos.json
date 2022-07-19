@@ -4,6 +4,147 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "add-afterSaved": "list",
+                        "add-cancelButtonLabel": "",
+                        "add-customFooter": "",
+                        "add-customHeader": "",
+                        "add-messageShowAfterComplete": "",
+                        "add-saveButtonLabel": "",
+                        "addFormId": "listaProcessosColossus",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customId": "",
+                        "datalistId": "listaProcessos",
+                        "edit-afterSaved": "list",
+                        "edit-allowRecordTraveling": "",
+                        "edit-backButtonLabel": "",
+                        "edit-customFooter": "",
+                        "edit-customHeader": "",
+                        "edit-firstButtonLabel": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "edit-moreActions": [],
+                        "edit-nextButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "edit-readonly": "",
+                        "edit-readonlyLabel": "",
+                        "edit-saveButtonLabel": "",
+                        "editFormId": "detalheProcesso",
+                        "enableOffline": "",
+                        "id": "CE99A5AEB1934B8294A1D343B3D2AD29",
+                        "keyName": "",
+                        "label": "Lista de Processos",
+                        "list-abortRelatedRunningProcesses": "",
+                        "list-confirmation": "",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "list-deleteButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "list-deleteGridData": "",
+                        "list-deleteSubformData": "",
+                        "list-editLinkLabel": "",
+                        "list-editLinkTarget": "",
+                        "list-moreActions": [],
+                        "list-newButtonLabel": "",
+                        "list-newLinkTarget": "",
+                        "list-showDeleteButton": "yes",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
+                    "properties": {
+                        "checkUTF8": "",
+                        "columnMapping": [
+                            {
+                                "col": "0",
+                                "field": "data_criacao",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "1",
+                                "field": "pid",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "2",
+                                "field": "nome_pasta",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "3",
+                                "field": "predio",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "4",
+                                "field": "freguesia",
+                                "formatted": "true"
+                            },
+                            {
+                                "col": "5",
+                                "field": "conservatoria",
+                                "formatted": "true"
+                            }
+                        ],
+                        "corfirmation": "",
+                        "customCsvDelimiter": "",
+                        "customCsvQuote": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "disabledDelete": "",
+                        "formDefId": "listaProcessosColossus",
+                        "id": "ED32CB854EB84558AC72CB100B0F8E70",
+                        "key": "1",
+                        "label": "Importar Processo",
+                        "messageOnError": "",
+                        "messageOnSuccess": "",
+                        "redirectUrl": "",
+                        "rowStart": "1",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "userviewKey": ""
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "datalistId": "documentosProcesso",
+                        "enableOffline": "",
+                        "id": "9D4BBCC7FC2C4A62BC11779C2E514697",
+                        "keyName": "",
+                        "label": "Lista de Documentos",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "actionAfterSaved": "",
@@ -241,147 +382,6 @@
                     "className": "",
                     "properties": {}
                 }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.plugin.enterprise.CsvImportMenu",
-                    "properties": {
-                        "checkUTF8": "",
-                        "columnMapping": [
-                            {
-                                "col": "0",
-                                "field": "data_criacao",
-                                "formatted": "true"
-                            },
-                            {
-                                "col": "1",
-                                "field": "pid",
-                                "formatted": "true"
-                            },
-                            {
-                                "col": "2",
-                                "field": "nome_pasta",
-                                "formatted": "true"
-                            },
-                            {
-                                "col": "3",
-                                "field": "predio",
-                                "formatted": "true"
-                            },
-                            {
-                                "col": "4",
-                                "field": "freguesia",
-                                "formatted": "true"
-                            },
-                            {
-                                "col": "5",
-                                "field": "conservatoria",
-                                "formatted": "true"
-                            }
-                        ],
-                        "corfirmation": "",
-                        "customCsvDelimiter": "",
-                        "customCsvQuote": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "disabledDelete": "",
-                        "formDefId": "listaProcessosColossus",
-                        "id": "ED32CB854EB84558AC72CB100B0F8E70",
-                        "key": "1",
-                        "label": "Importar Processo",
-                        "messageOnError": "",
-                        "messageOnSuccess": "",
-                        "redirectUrl": "",
-                        "rowStart": "1",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "userviewKey": ""
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.CrudMenu",
-                    "properties": {
-                        "add-afterSaved": "list",
-                        "add-cancelButtonLabel": "",
-                        "add-customFooter": "",
-                        "add-customHeader": "",
-                        "add-messageShowAfterComplete": "",
-                        "add-saveButtonLabel": "",
-                        "addFormId": "listaProcessosColossus",
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customId": "",
-                        "datalistId": "listaProcessos",
-                        "edit-afterSaved": "list",
-                        "edit-allowRecordTraveling": "",
-                        "edit-backButtonLabel": "",
-                        "edit-customFooter": "",
-                        "edit-customHeader": "",
-                        "edit-firstButtonLabel": "",
-                        "edit-lastButtonLabel": "",
-                        "edit-messageShowAfterComplete": "",
-                        "edit-moreActions": [],
-                        "edit-nextButtonLabel": "",
-                        "edit-prevButtonLabel": "",
-                        "edit-readonly": "",
-                        "edit-readonlyLabel": "",
-                        "edit-saveButtonLabel": "",
-                        "editFormId": "detalheProcesso",
-                        "enableOffline": "",
-                        "id": "CE99A5AEB1934B8294A1D343B3D2AD29",
-                        "keyName": "",
-                        "label": "Lista de Processos",
-                        "list-abortRelatedRunningProcesses": "",
-                        "list-confirmation": "",
-                        "list-customFooter": "",
-                        "list-customHeader": "",
-                        "list-deleteButtonLabel": "",
-                        "list-deleteFiles": "",
-                        "list-deleteGridData": "",
-                        "list-deleteSubformData": "",
-                        "list-editLinkLabel": "",
-                        "list-editLinkTarget": "",
-                        "list-moreActions": [],
-                        "list-newButtonLabel": "",
-                        "list-newLinkTarget": "",
-                        "list-showDeleteButton": "yes",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "datalistId": "documentosProcesso",
-                        "enableOffline": "",
-                        "id": "9D4BBCC7FC2C4A62BC11779C2E514697",
-                        "keyName": "",
-                        "label": "Lista de Documentos",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                }
-            ],
-            "properties": {
-                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-                "label": "<i class='fa fa-home'><\/i> Home"
             }
         }
     ],
