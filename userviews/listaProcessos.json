@@ -41,7 +41,7 @@
                         "list-abortRelatedRunningProcesses": "",
                         "list-confirmation": "",
                         "list-customFooter": "",
-                        "list-customHeader": "<script>\n    $(\"form[id = filters_listaProcessos] input[type = submit]\").val(\"Filtrar\");\n<\/script>",
+                        "list-customHeader": "<script>\n    console.log($(\"form[id = filters_listaProcessos]\")):\n    $(\"form[id = filters_listaProcessos] input[type = submit]\").val(\"Filtrar\");\n<\/script>",
                         "list-deleteButtonLabel": "Apagar",
                         "list-deleteFiles": "",
                         "list-deleteGridData": "",
