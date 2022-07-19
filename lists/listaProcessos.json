@@ -81,7 +81,7 @@
             "deleteGridData": "",
             "deleteSubformData": "",
             "formDefId": "listaProcessosColossus",
-            "label": "Delete",
+            "label": "Apagar",
             "rules": []
         },
         "type": "text"
