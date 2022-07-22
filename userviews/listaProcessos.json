@@ -455,7 +455,7 @@
                 "homeUrl": "",
                 "horizontal_menu": "",
                 "inbox": "",
-                "js": "$(document).ready(function(){\n    $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    $(\"input[class = 'waves-button-input']\").html(\"Submeter\");\n});",
+                "js": "$(document).ready(function(){\n    $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    $(\"i[class = 'form-button btn button  waves-input-wrapper waves-effect btn waves-button waves-float']\").html('<input id=\"submit\" name=\"submit\" class=\"waves-button-input\" type=\"submit\" value=\"Submeter\" style=\"background-color:rgba(0,0,0,0);\">');\n});",
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
