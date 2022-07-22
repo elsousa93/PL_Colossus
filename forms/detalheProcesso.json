@@ -155,20 +155,6 @@
                                 "label": "Documento",
                                 "value": "documento_processo",
                                 "width": ""
-                            },
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "PID",
-                                "value": "pid",
-                                "width": ""
-                            },
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "ID",
-                                "value": "id",
-                                "width": ""
                             }
                         ],
                         "pageSize": "20",
