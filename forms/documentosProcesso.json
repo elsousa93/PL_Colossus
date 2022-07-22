@@ -115,13 +115,8 @@
         "description": "",
         "id": "documentosProcesso",
         "loadBinder": {
-            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
-            "properties": {
-                "autoHandleFiles": "",
-                "autoHandleWorkflowVariable": "",
-                "jdbcDatasource": "default",
-                "sql": "SELECT * FROM app_fd_doc_proce_colossus WHERE c_documento_processo = \"Doc1Exemplo.txt\";"
-            }
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
         },
         "name": "Documento do Processo",
         "noPermissionMessage": "",
