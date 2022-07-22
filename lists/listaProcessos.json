@@ -46,7 +46,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.plugin.enterprise.BeanShellFormatter",
-                "properties": {"script": "import java.util.regex.*;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\n\n\n\nPattern pattern = Pattern.compile(\"^.*\\\\.*$\"); //Pattern \nMatcher matcher = pattern.matcher(value);\nif(matcher.find()){\n    return matcher.group();\n}\n\n//https://stackoverflow.com/questions/31406823/i-want-to-execute-regular-expression-using-beanshell-preprocessor-in-jemeter\n//https://www.javatpoint.com/java-regex\n\n//value = value.substring(matcher.start());\n"}
+                "properties": {"script": "import java.util.regex.*;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\n\n\n\nPattern pattern = Pattern.compile(\"^.*\\\\.*$\"); //Pattern \nMatcher matcher = pattern.matcher(value);\nif(matcher.find()){\n    \n}\n\n//https://stackoverflow.com/questions/31406823/i-want-to-execute-regular-expression-using-beanshell-preprocessor-in-jemeter\n//https://www.javatpoint.com/java-regex\n\n//value = value.substring(matcher.start());\nreturn matcher.g;"}
             },
             "headerAlignment": "",
             "hidden": "false",
