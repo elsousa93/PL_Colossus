@@ -168,8 +168,8 @@
                                 "formDefId": "documentosProcesso"
                             }
                         },
-                        "submit-label-normal": "",
-                        "submit-label-readonly": "",
+                        "submit-label-normal": "Guardar",
+                        "submit-label-readonly": "Guardar",
                         "uniqueKey": "",
                         "validateMaxRow": "",
                         "validateMinRow": "",
