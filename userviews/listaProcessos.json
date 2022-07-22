@@ -424,7 +424,7 @@
                 "homeUrl": "",
                 "horizontal_menu": "",
                 "inbox": "",
-                "js": "$(document).ready(function(){\n        $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    });",
+                "js": "$(document).ready(function(){\n    $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n});",
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
