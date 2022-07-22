@@ -162,6 +162,13 @@
                                 "label": "PID",
                                 "value": "pid",
                                 "width": ""
+                            },
+                            {
+                                "format": "",
+                                "formatType": "text",
+                                "label": "ID",
+                                "value": "id",
+                                "width": ""
                             }
                         ],
                         "pageSize": "20",
@@ -177,70 +184,6 @@
                         },
                         "submit-label-normal": "Guardar",
                         "submit-label-readonly": "Guardar",
-                        "uniqueKey": "",
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "width": "900"
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.FormGrid",
-                    "properties": {
-                        "abortRelatedRunningProcesses": "",
-                        "deleteFiles": "",
-                        "deleteGridData": "",
-                        "deleteMessage": "Delete row?",
-                        "deleteSubformData": "",
-                        "disabledAdd": "",
-                        "disabledDelete": "",
-                        "enableSorting": "",
-                        "errorMessage": "Invalid number of rows",
-                        "formDefId": "documentosProcesso",
-                        "height": "500",
-                        "id": "documentos",
-                        "label": "Documentos Processo",
-                        "loadBinder": {
-                            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
-                            "properties": {
-                                "autoHandleFiles": "",
-                                "autoHandleWorkflowVariable": "",
-                                "jdbcDatasource": "default",
-                                "sql": "SELECT * FROM app_fd_doc_proce_colossus WHERE c_pid like '#form.lista_proce_colossus.pid#';"
-                            }
-                        },
-                        "options": [
-                            {
-                                "format": "",
-                                "formatType": "text",
-                                "label": "Tipo de Documento",
-                                "value": "tipo_documento",
-                                "width": ""
-                            },
-                            {
-                                "format": "documentosProcesso",
-                                "formatType": "file",
-                                "label": "Documento",
-                                "value": "documento_processo",
-                                "width": ""
-                            }
-                        ],
-                        "pageSize": "20",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "showRowNumber": "",
-                        "storeBinder": {
-                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
-                            "properties": {
-                                "foreignKey": "pid",
-                                "formDefId": "documentosProcesso"
-                            }
-                        },
-                        "submit-label-normal": "",
-                        "submit-label-readonly": "",
                         "uniqueKey": "",
                         "validateMaxRow": "",
                         "validateMinRow": "",
