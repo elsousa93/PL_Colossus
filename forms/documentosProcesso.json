@@ -120,7 +120,7 @@
                 "autoHandleFiles": "",
                 "autoHandleWorkflowVariable": "",
                 "jdbcDatasource": "default",
-                "sql": "SELECT * FROM app_fd_doc_proce_colossus dpc LIMIT 1;"
+                "sql": "SELECT * FROM app_fd_doc_proce_colossus WHERE c_documento_processo = \"Doc1Exemplo.txt\";"
             }
         },
         "name": "Documento do Processo",
