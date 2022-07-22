@@ -113,6 +113,37 @@
                         "userviewCacheScope": "",
                         "userviewKey": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "Cancelar",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "documentosProcesso",
+                        "id": "B7A09C8A67A54033970B2F9D130ECE86",
+                        "keyName": "",
+                        "label": "Documentos",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "Submeter",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
@@ -226,37 +257,6 @@
                         "list-showDeleteButton": "yes",
                         "rowCount": "",
                         "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "Cancelar",
-                        "customFooter": "",
-                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    });\n<\/script>",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "documentosProcesso",
-                        "id": "B7A09C8A67A54033970B2F9D130ECE86",
-                        "keyName": "",
-                        "label": "Documentos",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "Submeter",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
