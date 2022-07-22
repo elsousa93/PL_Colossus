@@ -204,8 +204,13 @@
                         "id": "documentos",
                         "label": "Documentos Processo",
                         "loadBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
+                            "properties": {
+                                "autoHandleFiles": "",
+                                "autoHandleWorkflowVariable": "true",
+                                "jdbcDatasource": "default",
+                                "sql": "SELECT * FROM app_fd_doc_proce_colossus dpc WHERE dcp.c_pid ='#form.lista_proce_colossus.pid#';"
+                            }
                         },
                         "options": [
                             {
@@ -228,8 +233,11 @@
                         "readonlyLabel": "",
                         "showRowNumber": "",
                         "storeBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                            "properties": {
+                                "foreignKey": "pid",
+                                "formDefId": "documentosProcesso"
+                            }
                         },
                         "submit-label-normal": "",
                         "submit-label-readonly": "",
