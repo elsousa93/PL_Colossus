@@ -46,7 +46,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.plugin.enterprise.BeanShellFormatter",
-                "properties": {"script": "/*import java.util.regex.*;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\nPattern pattern = Pattern.compile(\"^.*\\\\.*$\"); //Pattern \nMatcher matcher = pattern.matcher(value);\nif(matcher.find()){\n    \n}*/\n\nString x = value.toString();\nchar[] arr = x.split(\"\\\");\n\n\n\n\n//Depois vê outra forma de fazer o split, acho que não existe split na classe java.lang.string\n\n\n//https://stackoverflow.com/questions/31406823/i-want-to-execute-regular-expression-using-beanshell-preprocessor-in-jemeter\n//https://www.javatpoint.com/java-regex\n\n//value = value.substring(matcher.start());\nreturn \"Não\";"}
+                "properties": {"script": "/*import java.util.regex.*;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\nPattern pattern = Pattern.compile(\"^.*\\\\.*$\"); //Pattern \nMatcher matcher = pattern.matcher(value);\nif(matcher.find()){\n    \n}*/\n\nString x = value.toString();\nString[] arr = x.split(\"\\\");\n\n\n\n\n//Depois vê outra forma de fazer o split, acho que não existe split na classe java.lang.string\n\n\n//https://stackoverflow.com/questions/31406823/i-want-to-execute-regular-expression-using-beanshell-preprocessor-in-jemeter\n//https://www.javatpoint.com/java-regex\n\n//value = value.substring(matcher.start());\nreturn \"Não\";"}
             },
             "headerAlignment": "",
             "hidden": "false",
