@@ -207,9 +207,9 @@
                             "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
                             "properties": {
                                 "autoHandleFiles": "",
-                                "autoHandleWorkflowVariable": "true",
+                                "autoHandleWorkflowVariable": "",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT * FROM app_fd_doc_proce_colossus dpc WHERE dcp.c_pid ='#form.lista_proce_colossus.pid#';"
+                                "sql": "SELECT * FROM app_fd_doc_proce_colossus WHERE c_pid like '#form.lista_proce_colossus.pid#';"
                             }
                         },
                         "options": [
