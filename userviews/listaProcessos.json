@@ -113,37 +113,6 @@
                         "userviewCacheScope": "",
                         "userviewKey": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "documentosProcesso",
-                        "id": "7203BCFC71C94C0188C49313ADC79BC2",
-                        "keyName": "",
-                        "label": "Form",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
