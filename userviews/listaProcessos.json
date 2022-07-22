@@ -182,7 +182,7 @@
                         "actionOnCancel": "",
                         "cancelButtonLabel": "Cancelar",
                         "customFooter": "",
-                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    });    \n<\/script>",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    });    ~\n    console.log(\"AHHHHHHH\");\n<\/script>",
                         "customId": "",
                         "enableOffline": "",
                         "fieldPassover": "",
