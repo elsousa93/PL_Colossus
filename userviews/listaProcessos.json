@@ -180,9 +180,9 @@
                     "properties": {
                         "actionAfterSaved": "",
                         "actionOnCancel": "",
-                        "cancelButtonLabel": "",
+                        "cancelButtonLabel": "Cancelar",
                         "customFooter": "",
-                        "customHeader": "",
+                        "customHeader": "<script>\n    $(document).ready(function(){\n        $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    });    \n<\/script>",
                         "customId": "",
                         "enableOffline": "",
                         "fieldPassover": "",
@@ -201,7 +201,7 @@
                         "redirectUrlAfterComplete": "",
                         "redirectUrlOnCancel": "",
                         "showInPopupDialog": "",
-                        "submitButtonLabel": "",
+                        "submitButtonLabel": "Submeter",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
