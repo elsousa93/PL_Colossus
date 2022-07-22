@@ -371,6 +371,37 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "Cancelar",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "criarImovel",
+                        "id": "C8BE14C5F82843ACA4C02C01B4992457",
+                        "keyName": "",
+                        "label": "Criar Imóvel",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "Submeter",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
