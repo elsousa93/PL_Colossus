@@ -46,7 +46,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.plugin.enterprise.BeanShellFormatter",
-                "properties": {"script": "import java.util.regex.*;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\n\nString temp = \"\\\\(?:.(?!\\\\))+$\";\nPattern patternN = Pattern.compile(tmp);\nMatcher matcher = patternN.matcher(value);\nString result= matcher.start();\n\n//value = value.substring(result);\nreturn value;"}
+                "properties": {"script": "import java.util.regex.*;\nimport java.util.regex.Matcher;\nimport java.util.regex.Pattern;\n\n/*String temp = \"\\\\(?:.(?!\\\\))+$\";\nPattern pattern = Pattern.compile(tmp);\nMatcher matcher = patternN.matcher(value);\nString result= matcher.start();*/\n\n//value = value.substring(result);\nreturn value;"}
             },
             "headerAlignment": "",
             "hidden": "false",
