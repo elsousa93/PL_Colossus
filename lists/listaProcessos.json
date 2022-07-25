@@ -1,18 +1,5 @@
 {
-    "actions": [{
-        "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
-        "icon": "<i class=\"fas fa-code\"><\/i>",
-        "id": "action_0",
-        "label": "Bean Shell",
-        "name": "Bean Shell Datalist Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "action",
-            "label": "Bean Shell",
-            "script": "import java.awt.FlowLayout;\r\nimport javax.swing.JFrame;\r\nimport javax.swing.JTextField;\r\n\r\nthis.getContentPane().setLayout(new FlowLayout());\r\n\r\nJTextField field1 = new JTextField();\r\nfield1.setText(\"Imóveis\");\r\n\r\nadd(field1);\r\n\r\nframe.pack();\r\n \r\nframe.setVisible(true);\r\n \r\nframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n\r\n\r\n\r\n"
-        },
-        "type": "text"
-    }],
+    "actions": [],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -118,25 +105,43 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
-        "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "deleteFiles": "",
-            "deleteGridData": "",
-            "deleteSubformData": "",
-            "formDefId": "listaProcessosColossus",
-            "label": "Apagar",
-            "rules": []
+    "rowActions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "deleteSubformData": "",
+                "formDefId": "listaProcessosColossus",
+                "label": "Apagar",
+                "rules": []
+            },
+            "type": "text"
         },
-        "type": "text"
-    }],
+        {
+            "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
+            "icon": "<i class=\"fas fa-database\"><\/i>",
+            "id": "rowAction_1",
+            "label": "JDBC",
+            "name": "JDBC Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "jdbcDatasource": "default",
+                "label": "JDBC",
+                "query": "SELECT * FROM app_fd_imoveis_colossus WHERE c_pid = '#userviewKey#'",
+                "rules": []
+            },
+            "type": "text"
+        }
+    ],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
