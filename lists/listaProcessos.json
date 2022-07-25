@@ -1,18 +1,5 @@
 {
-    "actions": [{
-        "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
-        "icon": "<i class=\"fas fa-code\"><\/i>",
-        "id": "action_0",
-        "label": "Bean Shell",
-        "name": "Bean Shell Datalist Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "action",
-            "label": "Bean Shell",
-            "script": "return value;"
-        },
-        "type": "text"
-    }],
+    "actions": [],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -116,25 +103,42 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
-        "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "deleteFiles": "",
-            "deleteGridData": "",
-            "deleteSubformData": "",
-            "formDefId": "listaProcessosColossus",
-            "label": "Apagar",
-            "rules": []
+    "rowActions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "deleteSubformData": "",
+                "formDefId": "listaProcessosColossus",
+                "label": "Apagar",
+                "rules": []
+            },
+            "type": "text"
         },
-        "type": "text"
-    }],
+        {
+            "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
+            "icon": "<i class=\"fas fa-code\"><\/i>",
+            "id": "rowAction_1",
+            "label": "Bean Shell",
+            "name": "Bean Shell Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "label": "Bean Shell",
+                "rules": [],
+                "script": "return value;"
+            },
+            "type": "text"
+        }
+    ],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
