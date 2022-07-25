@@ -1,91 +1,25 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.plugin.enterprise.JdbcDataListBinder",
         "properties": {
-            "extraCondition": "",
-            "formDefId": "listaProcessosColossus"
+            "jdbcDatasource": "custom",
+            "jdbcDriver": "com.mysql.jdbc.Driver",
+            "jdbcPassword": "%%%%Fr8b5SZK9HN3WDo2tyqmiw==%%%%",
+            "jdbcUrl": "jdbc:mysql://localhost/jwdb?characterEncoding=UTF8&useSSL=false",
+            "jdbcUser": "root",
+            "optimisePaging": "",
+            "primaryKey": "username",
+            "sql": "SELECT *\r\nFROM app_fd_lista_proce_colossus lpc\r\nINNER JOIN app_fd_imoveis_colossus mi ON mi.c_pid = lpc.c_pid;"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "datalist_type": "column",
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Data de Criação",
-            "name": "data_criacao",
-            "sortable": "false"
-        },
-        {
-            "datalist_type": "column",
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "PID",
-            "name": "pid",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "confirmation": "",
-                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/CE99A5AEB1934B8294A1D343B3D2AD29?_mode=edit",
-                    "hrefColumn": "id;pid",
-                    "hrefParam": "id;pid",
-                    "label": "Hyperlink",
-                    "target": "_self",
-                    "visible": ""
-                }
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.plugin.enterprise.BeanShellFormatter",
-                "properties": {"script": "String s = value.replace(\"\\\\\",\"\\\\\\\\\");\n\n\nString[] array = s.split(\"\\\\\\\\\");\n\nreturn array[array.length-1];"}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Nome da Pasta",
-            "name": "nome_pasta",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        }
-    ],
+    "columns": [],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_pid",
-            "id": "filter_0",
-            "label": "PID",
-            "name": "pid",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_nome_pasta",
-            "id": "filter_2",
-            "label": "Nome da Pasta",
-            "name": "nome_pasta",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        }
-    ],
+    "filters": [],
     "hidePageSize": "",
     "id": "listaProcessos",
     "name": "Lista de Processos",
@@ -105,43 +39,7 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-            "id": "rowAction_0",
-            "label": "Delete",
-            "name": "Form Row Delete Action",
-            "properties": {
-                "abortRelatedRunningProcesses": "",
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "deleteFiles": "",
-                "deleteGridData": "",
-                "deleteSubformData": "",
-                "formDefId": "listaProcessosColossus",
-                "label": "Apagar",
-                "rules": []
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
-            "icon": "<i class=\"fas fa-database\"><\/i>",
-            "id": "rowAction_1",
-            "label": "JDBC",
-            "name": "JDBC Datalist Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "jdbcDatasource": "default",
-                "label": "JDBC",
-                "query": "SELECT * FROM app_fd_lista_proce_colossus WHERE c_pid = {id};",
-                "rules": []
-            },
-            "type": "text"
-        }
-    ],
+    "rowActions": [],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
