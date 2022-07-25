@@ -136,7 +136,7 @@
                 "datalist_type": "row_action",
                 "jdbcDatasource": "default",
                 "label": "JDBC",
-                "query": "SELECT * FROM app_fd_lista_proce_colossus WHERE id = {id};",
+                "query": "SELECT * FROM app_fd_lista_proce_colossus WHERE c_pid = {id};",
                 "rules": []
             },
             "type": "text"
