@@ -64,6 +64,8 @@
     "disableResponsive": "",
     "filters": [
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_pid",
             "id": "filter_0",
             "label": "PID",
             "name": "pid",
@@ -124,17 +126,18 @@
             "type": "text"
         },
         {
-            "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
-            "icon": "<i class=\"fas fa-code\"><\/i>",
+            "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
+            "icon": "<i class=\"fas fa-database\"><\/i>",
             "id": "rowAction_1",
-            "label": "Bean Shell",
-            "name": "Bean Shell Datalist Action",
+            "label": "JDBC",
+            "name": "JDBC Datalist Action",
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "label": "Bean Shell",
-                "rules": [],
-                "script": "return \"Sim\";"
+                "jdbcDatasource": "default",
+                "label": "JDBC",
+                "query": "SELECT * FROM app_fd_imoveis_colossus;",
+                "rules": []
             },
             "type": "text"
         }
