@@ -1,5 +1,18 @@
 {
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
+        "icon": "<i class=\"fas fa-code\"><\/i>",
+        "id": "action_0",
+        "label": "Bean Shell",
+        "name": "Bean Shell Datalist Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "action",
+            "label": "Bean Shell",
+            "script": "return value;"
+        },
+        "type": "text"
+    }],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -11,6 +24,7 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
@@ -72,6 +86,8 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_nome_pasta",
             "id": "filter_2",
             "label": "Nome da Pasta",
             "name": "nome_pasta",
