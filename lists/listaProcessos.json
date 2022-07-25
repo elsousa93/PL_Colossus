@@ -28,6 +28,14 @@
             "sortable": "false"
         },
         {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Data de Criação",
+            "name": "data_criacao",
+            "sortable": "false"
+        },
+        {
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
@@ -56,14 +64,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Date Created",
-            "name": "dateCreated",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
