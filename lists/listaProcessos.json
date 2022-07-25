@@ -134,7 +134,7 @@
                 "datalist_type": "row_action",
                 "label": "Bean Shell",
                 "rules": [],
-                "script": "return value;"
+                "script": "return \"Sim\";"
             },
             "type": "text"
         }
