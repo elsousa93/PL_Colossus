@@ -105,43 +105,25 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-            "id": "rowAction_0",
-            "label": "Delete",
-            "name": "Form Row Delete Action",
-            "properties": {
-                "abortRelatedRunningProcesses": "",
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "deleteFiles": "",
-                "deleteGridData": "",
-                "deleteSubformData": "",
-                "formDefId": "listaProcessosColossus",
-                "label": "Apagar",
-                "rules": []
-            },
-            "type": "text"
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "deleteSubformData": "",
+            "formDefId": "listaProcessosColossus",
+            "label": "Apagar",
+            "rules": []
         },
-        {
-            "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
-            "icon": "<i class=\"fas fa-database\"><\/i>",
-            "id": "rowAction_1",
-            "label": "JDBC",
-            "name": "JDBC Datalist Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "jdbcDatasource": "default",
-                "label": "JDBC",
-                "query": "SELECT * FROM app_fd_imoveis_colossus;",
-                "rules": []
-            },
-            "type": "text"
-        }
-    ],
+        "type": "text"
+    }],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
