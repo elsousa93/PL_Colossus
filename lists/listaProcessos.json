@@ -22,9 +22,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "ID",
-            "name": "id",
+            "id": "column_1",
+            "label": "PID",
+            "name": "pid",
             "sortable": "false"
         },
         {
@@ -60,9 +60,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "PID",
-            "name": "pid",
+            "id": "column_3",
+            "label": "Date Created",
+            "name": "dateCreated",
             "sortable": "false"
         }
     ],
