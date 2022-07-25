@@ -1,5 +1,18 @@
 {
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
+        "icon": "<i class=\"fas fa-code\"><\/i>",
+        "id": "action_0",
+        "label": "Bean Shell",
+        "name": "Bean Shell Datalist Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "action",
+            "label": "Bean Shell",
+            "script": "import java.awt.FlowLayout;\r\nimport javax.swing.JFrame;\r\nimport javax.swing.JTextField;\r\n\r\nthis.getContentPane().setLayout(new FlowLayout());\r\n\r\nJTextField field1 = new JTextField();\r\nfield1.setText(\"Imóveis\");\r\n\r\nadd(field1);\r\n\r\nframe.pack();\r\n \r\nframe.setVisible(true);\r\n \r\nframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n\r\n\r\n\r\n"
+        },
+        "type": "text"
+    }],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
