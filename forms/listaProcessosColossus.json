@@ -100,9 +100,30 @@
     "properties": {
         "description": "",
         "id": "listaProcessosColossus",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.plugin.enterprise.JdbcLoadBinder",
+            "properties": {
+                "autoHandleFiles": "",
+                "autoHandleWorkflowVariable": "true",
+                "jdbcDatasource": "default",
+                "sql": "SELECT * from app_fd_lista_proce_colossus JOIN app_fd_imoveis_colossus on app_fd_lista_proce_colossus.c_pid = app_fd_imoveis_colossus.c_pid;"
+            }
+        },
         "name": "Lista de Processos",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "lista_proce_colossus"
     }
 }
