@@ -32,7 +32,7 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/",
+                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/detalheProcesso/_/",
                     "hrefColumn": "pid",
                     "hrefParam": "id",
                     "label": "Hyperlink",
