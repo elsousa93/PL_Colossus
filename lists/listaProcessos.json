@@ -18,7 +18,7 @@
                 "function": "AFD_COUNT_",
                 "join": "AND",
                 "operator": "=",
-                "value": "2"
+                "value": "1"
             }],
             "joins": [{
                 "fieldId": "imoveis_colossus.pid",
