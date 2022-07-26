@@ -87,7 +87,7 @@
                     "visible": ""
                 }
             },
-            "alignment": "dataListAlignCenter",
+            "alignment": "dataListAlignLeft",
             "datalist_type": "column",
             "exclude_export": "",
             "filterable": true,
@@ -95,7 +95,7 @@
                 "className": "org.joget.plugin.enterprise.BeanShellFormatter",
                 "properties": {"script": "String s = value.replace(\"\\\\\",\"\\\\\\\\\");\nString[] array = s.split(\"\\\\\\\\\");\n\nreturn array[array.length-1];"}
             },
-            "headerAlignment": "dataListAlignCenter",
+            "headerAlignment": "dataListAlignLeft",
             "hidden": "false",
             "id": "column_2",
             "label": "Nome da Pasta",
