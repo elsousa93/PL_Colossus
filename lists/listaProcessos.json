@@ -3,14 +3,23 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "aggregateField": [],
+            "aggregateField": [{
+                "field": "pid",
+                "function": "AFD_COUNT_"
+            }],
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "pid;data_criacao;nome_pasta;imoveis_colossus.predio",
-            "having": [],
+            "having": [{
+                "field": "pid",
+                "function": "AFD_COUNT_",
+                "join": "AND",
+                "operator": "=",
+                "value": "1"
+            }],
             "joins": [{
                 "fieldId": "imoveis_colossus.pid",
                 "joinFieldId": "pid",
