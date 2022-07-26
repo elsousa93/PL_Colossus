@@ -9,7 +9,7 @@
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
-            "groupBy": "pid;data_criacao;nome_pasta",
+            "groupBy": "pid;data_criacao;nome_pasta;imoveis_colossus.predio",
             "having": [],
             "joins": [{
                 "fieldId": "imoveis_colossus.pid",
@@ -113,6 +113,15 @@
             "id": "filter_1",
             "label": "Nome da Pasta",
             "name": "nome_pasta",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "imoveis_colossus.predio",
+            "name": "imoveis_colossus.predio",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
