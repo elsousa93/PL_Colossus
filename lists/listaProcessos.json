@@ -16,7 +16,7 @@
             "having": [{
                 "field": "imoveis_colossus.predio",
                 "function": "AFD_COUNT_DISTINCT_",
-                "join": "AND",
+                "join": "OR",
                 "operator": "<>",
                 "value": "1"
             }],
