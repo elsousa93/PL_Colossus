@@ -5,7 +5,7 @@
         "properties": {
             "aggregateField": [{
                 "field": "pid",
-                "function": "AFD_COUNT_"
+                "function": "AFD_COUNT_DISTINCT_"
             }],
             "customSelectionValue": "",
             "extraCondition": "",
@@ -14,8 +14,8 @@
             "functionColumns": [],
             "groupBy": "data_criacao;nome_pasta;pid;imoveis_colossus.predio",
             "having": [{
-                "field": "pid",
-                "function": "AFD_COUNT_",
+                "field": "imoveis_colossus.predio",
+                "function": "AFD_COUNT_DISTINCT_",
                 "join": "AND",
                 "operator": "=",
                 "value": "1"
