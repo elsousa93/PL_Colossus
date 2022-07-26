@@ -10,7 +10,7 @@
             "functionColumns": [],
             "groupBy": "",
             "joins": [{
-                "fieldId": null,
+                "fieldId": "imoveis_colossus.pid",
                 "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
