@@ -103,6 +103,14 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "PID (COUNT DISTINCT)",
+            "name": "AFD_COUNT_DISTINCT_pid",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
