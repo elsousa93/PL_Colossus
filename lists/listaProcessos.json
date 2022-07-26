@@ -11,14 +11,14 @@
             "functionColumns": [],
             "groupBy": "data_criacao;nome_pasta;pid",
             "having": [{
-                "field": "nome_pasta",
+                "field": "pid",
                 "function": "AFD_COUNT_",
                 "join": "AND",
                 "operator": "=",
-                "value": "1"
+                "value": "0"
             }],
             "joins": [{
-                "fieldId": null,
+                "fieldId": "",
                 "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
