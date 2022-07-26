@@ -15,9 +15,9 @@
             "groupBy": "data_criacao;nome_pasta;pid;imoveis_colossus.predio",
             "having": [{
                 "field": "imoveis_colossus.predio",
-                "function": "AFD_COUNT_DISTINCT_",
+                "function": "AFD_COUNT_",
                 "join": "OR",
-                "operator": "<>",
+                "operator": "IN",
                 "value": "1"
             }],
             "joins": [{
