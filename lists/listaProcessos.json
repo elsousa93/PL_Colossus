@@ -3,12 +3,14 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
+            "aggregateField": [],
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
-            "groupBy": "",
+            "groupBy": "pid;imoveis_colossus.predio;data_criacao;nome_pasta",
+            "having": [],
             "joins": [{
                 "fieldId": "imoveis_colossus.pid",
                 "joinFieldId": "pid",
