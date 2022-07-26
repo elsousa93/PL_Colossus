@@ -17,7 +17,7 @@
                 "field": "imoveis_colossus.predio",
                 "function": "AFD_COUNT_DISTINCT_",
                 "join": "AND",
-                "operator": "=",
+                "operator": "<>",
                 "value": "1"
             }],
             "joins": [{
@@ -103,14 +103,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "PID (COUNT)",
-            "name": "AFD_COUNT_pid",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
