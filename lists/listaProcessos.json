@@ -15,7 +15,7 @@
                 "function": "AFD_COUNT_",
                 "join": "AND",
                 "operator": "=",
-                "value": "0"
+                "value": "2"
             }],
             "joins": [{
                 "fieldId": "",
