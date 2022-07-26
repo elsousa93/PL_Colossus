@@ -15,7 +15,7 @@
             "groupBy": "pid;data_criacao;nome_pasta;imoveis_colossus.predio",
             "having": [{
                 "field": "pid",
-                "function": "AFD_COUNT_",
+                "function": "AFD_COUNT_DISTINCT_",
                 "join": "AND",
                 "operator": "=",
                 "value": "1"
