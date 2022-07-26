@@ -5,7 +5,7 @@
         "properties": {
             "aggregateField": [{
                 "field": "pid",
-                "function": "AFD_COUNT_"
+                "function": "AFD_COUNT_DISTINCT_"
             }],
             "customSelectionValue": "",
             "extraCondition": "",
@@ -17,7 +17,7 @@
                 "field": "pid",
                 "function": "AFD_COUNT_",
                 "join": "AND",
-                "operator": "<",
+                "operator": "=",
                 "value": "2"
             }],
             "joins": [{
