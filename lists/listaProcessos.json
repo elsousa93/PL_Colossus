@@ -103,6 +103,14 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "imoveis_colossus.predio",
+            "name": "imoveis_colossus.predio",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
