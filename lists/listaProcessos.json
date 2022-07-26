@@ -3,12 +3,14 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
+            "aggregateField": [],
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
-            "groupBy": "",
+            "groupBy": "pid;data_criacao;nome_pasta",
+            "having": [],
             "joins": [{
                 "fieldId": "imoveis_colossus.pid",
                 "joinFieldId": "pid",
@@ -114,18 +116,6 @@
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_imoveis_colossus.predio",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Prédio",
-            "name": "imoveis_colossus.predio",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
             }
         }
     ],
