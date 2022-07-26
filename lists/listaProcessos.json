@@ -9,16 +9,16 @@
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
-            "groupBy": "imoveis_colossus.predio;data_criacao;nome_pasta;pid",
+            "groupBy": "data_criacao;nome_pasta;pid",
             "having": [{
-                "field": "pid",
+                "field": "nome_pasta",
                 "function": "AFD_COUNT_",
                 "join": "AND",
                 "operator": "=",
                 "value": "1"
             }],
             "joins": [{
-                "fieldId": "imoveis_colossus.pid",
+                "fieldId": null,
                 "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
@@ -122,18 +122,6 @@
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_imoveis_colossus.predio",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Prédio",
-            "name": "imoveis_colossus.predio",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
             }
         }
     ],
