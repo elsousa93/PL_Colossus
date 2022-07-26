@@ -9,16 +9,16 @@
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
-            "groupBy": "data_criacao;nome_pasta;pid",
+            "groupBy": "pid;data_criacao;nome_pasta;imoveis_colossus.predio",
             "having": [{
                 "field": "pid",
                 "function": "AFD_COUNT_",
                 "join": "AND",
-                "operator": "=",
-                "value": "2"
+                "operator": ">",
+                "value": "0"
             }],
             "joins": [{
-                "fieldId": "",
+                "fieldId": "imoveis_colossus.predio",
                 "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
