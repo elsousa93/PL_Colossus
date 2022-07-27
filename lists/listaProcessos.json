@@ -4,7 +4,7 @@
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
             "customSelectionValue": "",
-            "extraCondition": "imoveis_colossus.customProperties.predio  LIKE IF('#requestParam.d-7672090-fn_imoveis_colossus.predio#'  != '' , '#requestParam.d-7672090-fn_imoveis_colossus.predio#', '221/19890328');",
+            "extraCondition": "imoveis_colossus.customProperties.predio  LIKE IF (imoveis_colossus.customProperties.predio  LIKE'#requestParam.d-7672090-fn_imoveis_colossus.predio#'  != '' , '#requestParam.d-7672090-fn_imoveis_colossus.predio#', \"221/19890328\" );",
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
