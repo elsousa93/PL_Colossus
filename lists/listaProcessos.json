@@ -8,7 +8,7 @@
             "filters": [{
                 "field": "imoveis_colossus.predio",
                 "join": "AND",
-                "operator": "=",
+                "operator": "LIKE",
                 "value": "'#requestParam.d-7672090-fn_imoveis_colossus.predio#'"
             }],
             "formDefId": "listaProcessosColossus",
