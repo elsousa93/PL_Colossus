@@ -4,7 +4,7 @@
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
             "customSelectionValue": "",
-            "extraCondition": "",
+            "extraCondition": "WHERE c_predio like #requestParam.d-7672090-fn_imoveis_colossus.predio#",
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
