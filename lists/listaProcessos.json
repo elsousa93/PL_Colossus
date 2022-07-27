@@ -4,7 +4,7 @@
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
             "customSelectionValue": "",
-            "extraCondition": "imoveis_colossus.customProperties.predio  like CASE WHEN ' ' = ' ' THEN '221/19890328' END;",
+            "extraCondition": "imoveis_colossus.customProperties.predio  like (CASE WHEN null is null THEN '221/19890328' END)",
             "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
