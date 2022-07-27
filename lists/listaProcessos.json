@@ -4,13 +4,8 @@
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
             "customSelectionValue": "",
-            "extraCondition": "",
-            "filters": [{
-                "field": "imoveis_colossus.predio",
-                "join": "AND",
-                "operator": "=",
-                "value": "#requestParam.d-7672090-fn_imoveis_colossus.predio#"
-            }],
+            "extraCondition": "WHERE imoveis_colossus.predio LIKE #requestParam.d-7672090-fn_imoveis_colossus.predio#",
+            "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "",
