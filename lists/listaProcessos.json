@@ -10,7 +10,7 @@
             "functionColumns": [],
             "groupBy": "",
             "joins": [{
-                "fieldId": "",
+                "fieldId": "imoveis_colossus.pid",
                 "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
@@ -151,7 +151,7 @@
             "name": "imoveis_colossus.predio",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": "221/19890328"}
+                "properties": {"defaultValue": "%"}
             }
         }
     ],
