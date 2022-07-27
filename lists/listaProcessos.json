@@ -92,6 +92,28 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Prédio",
+            "name": "imoveis_colossus.predio",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -99,6 +121,8 @@
     "disableResponsive": "",
     "filters": [
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_pid",
             "id": "filter_0",
             "label": "PID",
             "name": "pid",
@@ -108,6 +132,8 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_nome_pasta",
             "id": "filter_1",
             "label": "Nome da Pasta",
             "name": "nome_pasta",
