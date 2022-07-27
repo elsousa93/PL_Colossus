@@ -151,7 +151,7 @@
             "name": "imoveis_colossus.predio",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": "%"}
+                "properties": {"defaultValue": ""}
             }
         }
     ],
