@@ -9,7 +9,7 @@
                 "field": "imoveis_colossus.predio",
                 "join": "AND",
                 "operator": "=",
-                "value": "#requestParam.d-7672090-fn_imoveis_colossus.predio#"
+                "value": "'#requestParam.d-7672090-fn_imoveis_colossus.predio#'"
             }],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
