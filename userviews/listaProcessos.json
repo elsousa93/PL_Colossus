@@ -23,7 +23,7 @@
                         "edit-allowRecordTraveling": "",
                         "edit-backButtonLabel": "Voltar",
                         "edit-customFooter": "",
-                        "edit-customHeader": "<script>\n    console.log(#currentUser.groups.name#);\n<\/script>",
+                        "edit-customHeader": "",
                         "edit-firstButtonLabel": "",
                         "edit-lastButtonLabel": "",
                         "edit-messageShowAfterComplete": "",
