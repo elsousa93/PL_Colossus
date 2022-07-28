@@ -37,6 +37,7 @@
             "id": "column_1",
             "label": "PID",
             "name": "pid",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
             "sortable": "false",
             "style": "",
             "width": ""
@@ -59,6 +60,7 @@
             "id": "column_0",
             "label": "Data de Criação",
             "name": "data_criacao",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
             "sortable": "false",
             "style": "",
             "width": ""
@@ -89,6 +91,7 @@
             "id": "column_2",
             "label": "Nome da Pasta",
             "name": "nome_pasta",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
             "sortable": "false",
             "style": "",
             "width": ""
@@ -111,6 +114,7 @@
             "id": "column_3",
             "label": "Prédio",
             "name": "imoveis_colossus.predio",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
             "sortable": "false",
             "style": "",
             "width": ""
@@ -126,6 +130,7 @@
             "id": "filter_0",
             "label": "PID",
             "name": "pid",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
@@ -138,6 +143,7 @@
             "id": "filter_2",
             "label": "Prédio",
             "name": "imoveis_colossus.predio",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {"defaultValue": ""}
@@ -151,6 +157,17 @@
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "permission_rules": [{
+        "permission": {
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "allowedGroupIds": "ColossusPermissaoEditar",
+                "orgId": ""
+            }
+        },
+        "permission_key": "a36895ca-2895-17c9-de92-348c704e071f",
+        "permission_name": "Permissao Editar"
+    }],
     "responsiveView": [
         {
             "breakpoint": "",
@@ -165,11 +182,12 @@
     ],
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "hidden": "",
+        "hidden": "true",
         "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
         "id": "rowAction_0",
         "label": "Delete",
         "name": "Form Row Delete Action",
+        "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
         "properties": {
             "abortRelatedRunningProcesses": "",
             "confirmation": "",
