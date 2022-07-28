@@ -96,8 +96,8 @@
                             }
                         ],
                         "pageSize": "20",
-                        "permissionHidden": "true",
-                        "readonly": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
                         "readonlyLabel": "",
                         "showRowNumber": "",
                         "storeBinder": {
