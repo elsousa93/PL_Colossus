@@ -224,11 +224,8 @@
         "name": "Detalhes do Processo",
         "noPermissionMessage": "",
         "permission": {
-            "className": "org.joget.apps.userview.lib.GroupPermission",
-            "properties": {
-                "allowedGroupIds": "ColossusPermissaoEditar",
-                "orgId": ""
-            }
+            "className": "",
+            "properties": {}
         },
         "postProcessor": {
             "className": "",
