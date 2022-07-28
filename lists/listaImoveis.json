@@ -21,7 +21,7 @@
             "id": "column_0",
             "label": "pid",
             "name": "pid",
-            "permission_rules": {"098ef071-b3cb-9563-7843-17b2b63a5111": {}},
+            "permission_rules": {},
             "sortable": "false"
         },
         {
@@ -30,7 +30,7 @@
             "id": "column_1",
             "label": "Predio",
             "name": "predio",
-            "permission_rules": {"098ef071-b3cb-9563-7843-17b2b63a5111": {}},
+            "permission_rules": {},
             "sortable": "false"
         },
         {
@@ -39,7 +39,7 @@
             "id": "column_2",
             "label": "Freguesia",
             "name": "freguesia",
-            "permission_rules": {"098ef071-b3cb-9563-7843-17b2b63a5111": {}},
+            "permission_rules": {},
             "sortable": "false"
         },
         {
@@ -48,33 +48,37 @@
             "id": "column_3",
             "label": "Conservatoria",
             "name": "conservatoria",
-            "permission_rules": {"098ef071-b3cb-9563-7843-17b2b63a5111": {}},
+            "permission_rules": {},
             "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [],
+    "hidePageSize": "",
     "id": "listaImoveis",
     "name": "Lista de Imoveis",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "permission_rules": [{
-        "permission": {
-            "className": "org.joget.apps.userview.lib.GroupPermission",
-            "properties": {
-                "allowedGroupIds": "ColossusPermissaoEditar",
-                "orgId": ""
-            }
+    "permission_rules": [],
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
         },
-        "permission_key": "098ef071-b3cb-9563-7843-17b2b63a5111",
-        "permission_name": "Permissao Editar"
-    }],
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "hidden": "true",
+        "hidden": "",
         "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
         "id": "rowAction_0",
         "label": "Delete",
@@ -93,6 +97,8 @@
         },
         "type": "text"
     }],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
