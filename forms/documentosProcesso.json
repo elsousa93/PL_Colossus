@@ -114,7 +114,7 @@
             "properties": {}
         },
         "name": "Documento do Processo",
-        "noPermissionMessage": "",
+        "noPermissionMessage": "Não possui permissões para visualizar esta página.",
         "permission": {
             "className": "org.joget.apps.userview.lib.GroupPermission",
             "properties": {
