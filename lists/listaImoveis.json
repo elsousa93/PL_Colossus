@@ -78,7 +78,7 @@
     ],
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "hidden": "",
+        "hidden": "true",
         "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
         "id": "rowAction_0",
         "label": "Delete",
