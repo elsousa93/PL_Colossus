@@ -406,7 +406,7 @@
             ],
             "properties": {
                 "comment": "",
-                "hide": "",
+                "hide": "yes",
                 "id": "category-F94CD60B53D34658A2CFB0DBA0BC0C58",
                 "label": "Hide",
                 "permission": {
