@@ -96,6 +96,7 @@
                             }
                         ],
                         "pageSize": "20",
+                        "permissionHidden": "true",
                         "readonly": "",
                         "readonlyLabel": "",
                         "showRowNumber": "",
