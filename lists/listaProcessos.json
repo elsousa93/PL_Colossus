@@ -68,7 +68,7 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/CE99A5AEB1934B8294A1D343B3D2AD29?_mode=edit",
+                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/listaProcessos?_mode=edit",
                     "hrefColumn": "pid",
                     "hrefParam": "id",
                     "label": "Hyperlink",
@@ -176,6 +176,7 @@
     ],
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "hidden": "true",
         "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
         "id": "rowAction_0",
         "label": "Delete",
