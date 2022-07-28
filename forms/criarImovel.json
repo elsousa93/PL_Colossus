@@ -120,10 +120,13 @@
             "properties": {}
         },
         "name": "Criar Imovel",
-        "noPermissionMessage": "",
+        "noPermissionMessage": "Não possui permissões para visualizar esta página.",
         "permission": {
-            "className": "",
-            "properties": {}
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "allowedGroupIds": "ColossusPermissaoEditar",
+                "orgId": ""
+            }
         },
         "permission_rules": [],
         "postProcessor": {
