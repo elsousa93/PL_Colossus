@@ -130,7 +130,7 @@
                         "actionOnCancel": "",
                         "cancelButtonLabel": "",
                         "customFooter": "",
-                        "customHeader": "",
+                        "customHeader": "<script>\n    <p> TESTE<\/p>\n<\/script>",
                         "customId": "",
                         "enableOffline": "",
                         "fieldPassover": "",
