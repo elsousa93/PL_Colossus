@@ -9,7 +9,7 @@
                     "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
                         "id": "pid",
-                        "permission_rules": {"3f35cda7-d97c-86d2-07b8-441d88b79233": {}},
+                        "permission_rules": {},
                         "useDefaultWhenEmpty": "",
                         "value": "#form.lista_proce_colossus.pid#",
                         "workflowVariable": ""
@@ -22,7 +22,7 @@
                         "id": "predio",
                         "label": "Predio",
                         "maxlength": "",
-                        "permission_rules": {"3f35cda7-d97c-86d2-07b8-441d88b79233": {}},
+                        "permission_rules": {},
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -44,7 +44,7 @@
                         "id": "freguesia",
                         "label": "Freguesia",
                         "maxlength": "",
-                        "permission_rules": {"3f35cda7-d97c-86d2-07b8-441d88b79233": {}},
+                        "permission_rules": {},
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -66,7 +66,7 @@
                         "id": "conservatoria",
                         "label": "Conservatoria",
                         "maxlength": "",
-                        "permission_rules": {"3f35cda7-d97c-86d2-07b8-441d88b79233": {}},
+                        "permission_rules": {},
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
@@ -99,8 +99,8 @@
             },
             "permissionHidden": "",
             "permissionReadonly": "",
-            "permission_rules": {"3f35cda7-d97c-86d2-07b8-441d88b79233": {}},
-            "readonly": "true",
+            "permission_rules": {},
+            "readonly": "",
             "readonlyLabel": "",
             "regex": "",
             "reverse": "",
@@ -125,17 +125,7 @@
             "className": "",
             "properties": {}
         },
-        "permission_rules": [{
-            "permission": {
-                "className": "org.joget.apps.userview.lib.GroupPermission",
-                "properties": {
-                    "allowedGroupIds": "ColossusPermissaoEditar",
-                    "orgId": ""
-                }
-            },
-            "permission_key": "3f35cda7-d97c-86d2-07b8-441d88b79233",
-            "permission_name": "Permissoes Editar"
-        }],
+        "permission_rules": [],
         "postProcessor": {
             "className": "",
             "properties": {}
