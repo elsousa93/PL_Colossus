@@ -13,6 +13,7 @@
                         "label": "PID",
                         "maxlength": "",
                         "permissionHidden": "",
+                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
                         "placeholder": "",
                         "readonly": "true",
                         "readonlyLabel": "",
@@ -35,6 +36,7 @@
                         "label": "Data de Criação",
                         "maxlength": "",
                         "permissionHidden": "",
+                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
                         "placeholder": "",
                         "readonly": "true",
                         "readonlyLabel": "",
@@ -97,6 +99,7 @@
                         ],
                         "pageSize": "20",
                         "permissionHidden": "",
+                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
                         "readonly": "true",
                         "readonlyLabel": "",
                         "showRowNumber": "",
@@ -159,7 +162,9 @@
                             }
                         ],
                         "pageSize": "20",
-                        "readonly": "",
+                        "permissionHidden": "",
+                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
+                        "readonly": "true",
                         "readonlyLabel": "",
                         "showRowNumber": "",
                         "storeBinder": {
@@ -203,6 +208,7 @@
                 "properties": {}
             },
             "permissionReadonly": "",
+            "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
             "readonly": "",
             "readonlyLabel": "",
             "regex": "",
@@ -228,6 +234,17 @@
             "className": "",
             "properties": {}
         },
+        "permission_rules": [{
+            "permission": {
+                "className": "org.joget.apps.userview.lib.GroupPermission",
+                "properties": {
+                    "allowedGroupIds": "ColossusPermissaoEditar",
+                    "orgId": ""
+                }
+            },
+            "permission_key": "006e7f57-e573-b7ea-b8bc-6e1c9596bf3c",
+            "permission_name": "Colissoes Editar"
+        }],
         "postProcessor": {
             "className": "",
             "properties": {}
