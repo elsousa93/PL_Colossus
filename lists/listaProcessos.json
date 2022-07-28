@@ -133,17 +133,6 @@
         },
         {
             "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_nome_pasta",
-            "id": "filter_1",
-            "label": "Nome da Pasta",
-            "name": "nome_pasta",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
             "filterParamName": "d-7672090-fn_imoveis_colossus.predio",
             "hidden": "",
             "id": "filter_2",
