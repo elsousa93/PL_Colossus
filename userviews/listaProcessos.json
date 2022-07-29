@@ -456,7 +456,7 @@
                 "homeUrl": "",
                 "horizontal_menu": "",
                 "inbox": "",
-                "js": "$(document).ready(function(){\n    $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    $(\"#submit\").val(\"Submeter\");\n    if('#currentUser.groups.id#' !== 'ColossusPermissaoEditar'){\n        let buttons = document.getElementsByClassName(\"grid-action-edit\");\n        console.log(buttons);\n    }\n    \n});\n\n$( \"li\" ).each(function( index ) {\n  console.log( index + \": \" + $( this ).text() );\n});",
+                "js": "$(document).ready(function(){\n    $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    $(\"#submit\").val(\"Submeter\");\n    if('#currentUser.groups.id#' !== 'ColossusPermissaoEditar'){\n        let buttons = document.getElementsByClassName(\"grid-action-edit\");\n        console.log(buttons[3]);\n    }\n    \n});\n\n$( \"li\" ).each(function( index ) {\n  console.log( index + \": \" + $( this ).text() );\n});",
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
