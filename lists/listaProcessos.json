@@ -95,6 +95,29 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Prédio",
+            "name": "imoveis_colossus.predio",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
