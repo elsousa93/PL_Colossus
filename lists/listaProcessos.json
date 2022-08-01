@@ -192,7 +192,7 @@
                 "datalist_type": "row_action",
                 "jdbcDatasource": "default",
                 "label": "JDBC",
-                "query": "DELETE FROM app_fd_lista_proce_colossus where c_pid = '#requestParam.d-7672090-fn_pid#';\n",
+                "query": "DELETE FROM app_fd_lista_proce_colossus where c_pid = '#form.lista_proce_colossus.pid#';\n",
                 "rules": []
             },
             "type": "text"
