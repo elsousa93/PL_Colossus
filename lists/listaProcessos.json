@@ -194,7 +194,7 @@
             "datalist_type": "row_action",
             "deleteFiles": "",
             "deleteGridData": "",
-            "deleteSubformData": "",
+            "deleteSubformData": "true",
             "formDefId": "listaProcessosColossus",
             "label": "Apagar",
             "rules": []
