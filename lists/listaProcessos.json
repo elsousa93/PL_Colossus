@@ -180,27 +180,45 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "hidden": "true",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
-        "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
-        "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "deleteFiles": "",
-            "deleteGridData": "true",
-            "deleteSubformData": "true",
-            "formDefId": "listaProcessosColossus",
-            "label": "Apagar",
-            "rules": []
+    "rowActions": [
+        {
+            "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
+            "icon": "<i class=\"fas fa-database\"><\/i>",
+            "id": "rowAction_1",
+            "label": "JDBC",
+            "name": "JDBC Datalist Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "jdbcDatasource": "default",
+                "label": "JDBC",
+                "query": "SELECT * FROM app_fd_lista_proce_colossus WHERE c_pid = '#requestParam.d-7672090-fn_lista_proce_colossus.pid#';",
+                "rules": []
+            },
+            "type": "text"
         },
-        "type": "text"
-    }],
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "hidden": "true",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "deleteFiles": "",
+                "deleteGridData": "true",
+                "deleteSubformData": "true",
+                "formDefId": "listaProcessosColossus",
+                "label": "Apagar",
+                "rules": []
+            },
+            "type": "text"
+        }
+    ],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
