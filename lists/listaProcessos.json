@@ -182,18 +182,17 @@
     ],
     "rowActions": [
         {
-            "className": "org.joget.plugin.enterprise.JdbcDatalistAction",
-            "icon": "<i class=\"fas fa-database\"><\/i>",
-            "id": "rowAction_1",
-            "label": "JDBC",
-            "name": "JDBC Datalist Action",
+            "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
+            "icon": "<i class=\"fas fa-code\"><\/i>",
+            "id": "rowAction_2",
+            "label": "Bean Shell",
+            "name": "Bean Shell Datalist Action",
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "jdbcDatasource": "default",
-                "label": "JDBC",
-                "query": "DELETE FROM app_fd_lista_proce_colossus where c_pid = '#form.lista_proce_colossus.pid#';\n",
-                "rules": []
+                "label": "Bean Shell",
+                "rules": [],
+                "script": "import org.joget.apps.form.model.*;\r\nimport org.joget.apps.form.service.*;\r\nimport java.sql.*;\r\nimport java.util.*;\r\n \r\nFormRowSet f = new FormRowSet();\r\nf.setMultiRow(true);\r\n \r\n//Get Joget's current datasource configs\r\nDataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\r\n \r\ncon = ds.getConnection();\r\n \r\nif (!con.isClosed()) {\r\n    //Get the URL parameter\r\n    String recordId = \"#requestParam.d-7672090-fn_pid#\";\r\n  \r\n    //Here you can query from one or multiple tables using JOIN etc\r\n    String sql = \"delete FROM app_fd_lista_proce_colossus WHERE c_pid=?\";\r\n    PreparedStatement stmt = con.prepareStatement(sql);\r\n    stmt.setString(1, recordId);\r\n  \r\n    //Execute the SELECT SQL statement\r\n    ResultSet rs = stmt.executeQuery();\r\n         \r\n    //Get value from columns of record(s)\r\n    while (rs.next()) {\r\n        FormRow r1 = new FormRow();\r\n        r1.put(\"gridColumn1\", rs.getString(1));\r\n        r1.put(\"gridColumn2\", rs.getString(2));\r\n        r1.put(\"gridColumn3\", rs.getString(3));\r\n        f.add(r1);\r\n    }\r\n}\r\n \r\nreturn f;"
             },
             "type": "text"
         },
