@@ -24,7 +24,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#form.lista_proce_colossus.c_pid#",
+                        "value": "#form.lista_proce_colossus.pid#",
                         "workflowVariable": ""
                     }
                 },
