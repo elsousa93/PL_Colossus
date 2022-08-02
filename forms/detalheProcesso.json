@@ -13,7 +13,10 @@
                         "label": "PID",
                         "maxlength": "",
                         "permissionHidden": "",
-                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
+                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {
+                            "permissionHidden": "",
+                            "readonly": "true"
+                        }},
                         "placeholder": "",
                         "readonly": "true",
                         "readonlyLabel": "",
@@ -36,7 +39,10 @@
                         "label": "Data de Criação",
                         "maxlength": "",
                         "permissionHidden": "",
-                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
+                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {
+                            "permissionHidden": "",
+                            "readonly": "true"
+                        }},
                         "placeholder": "",
                         "readonly": "true",
                         "readonlyLabel": "",
