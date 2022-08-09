@@ -118,6 +118,22 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "imoveis_colossus.freguesia",
+            "name": "imoveis_colossus.freguesia",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "imoveis_colossus.conservatoria",
+            "name": "imoveis_colossus.conservatoria",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -182,7 +198,7 @@
     ],
     "rowActions": [],
     "searchPopup": "",
-    "showDataWhenFilterSet": "",
+    "showDataWhenFilterSet": "true",
     "showPageSizeSelector": "true",
     "useSession": ""
 }
