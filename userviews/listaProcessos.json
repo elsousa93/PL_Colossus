@@ -107,18 +107,6 @@
                         "userviewCacheScope": "",
                         "userviewKey": ""
                     }
-                },
-                {
-                    "className": "org.joget.api.lib.ApiKeyMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "checkboxPosition": "left",
-                        "id": "985B058599AC4C95945BF4205F6AB046",
-                        "label": "Manage API Key ",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
@@ -405,6 +393,18 @@
                         "redirectUrlOnCancel": "",
                         "showInPopupDialog": "",
                         "submitButtonLabel": "Submeter",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.api.lib.ApiKeyMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "checkboxPosition": "left",
+                        "id": "985B058599AC4C95945BF4205F6AB046",
+                        "label": "Manage API Key ",
+                        "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
