@@ -237,8 +237,8 @@
         "name": "Detalhes do Processo",
         "noPermissionMessage": "",
         "permission": {
-            "className": "",
-            "properties": {}
+            "className": "org.joget.apps.userview.lib.BeanShellPermission",
+            "properties": {"script": "\nif(\"#currentUser.groups.name#\".equals(\"Coordenadores\")){\n    return true;\n}else{\n    return false;\n}"}
         },
         "permission_rules": [{
             "permission": {
