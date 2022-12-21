@@ -12,6 +12,14 @@
    <messageList/>
    <resourceList>
       <appResource>
+         <id>colossus.png</id>
+         <appId>colossus</appId>
+         <appVersion>1</appVersion>
+         <filesize>83551</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>FileSystem.png</id>
          <appId>colossus</appId>
          <appVersion>1</appVersion>
