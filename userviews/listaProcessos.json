@@ -460,7 +460,7 @@
                 "fontControl": "",
                 "homeAttractBanner": "",
                 "homeUrl": "",
-                "horizontal_menu": "",
+                "horizontal_menu": "true",
                 "inbox": "",
                 "js": "($(document).ready(function(){\n    $(\"div[class='dz-message needsclick']\").text(\"Arraste os documentos para aqui ou clique aqui\");\n    $(\"#submit\").val(\"Submeter\");\n    \n    \n}));\n\n$( \"li\" ).each(function( index ) {\n  console.log( index + \": \" + $( this ).text() );\n});",
                 "loginPageBottom": "",
