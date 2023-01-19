@@ -6,12 +6,7 @@
             "aggregateField": [],
             "customSelectionValue": "",
             "extraCondition": "imoveis_colossus.customProperties.predio like '#requestParam.d-7672090-fn_imoveis_colossus.predio#'",
-            "filters": [{
-                "field": "imoveis_colossus.predio",
-                "join": "AND",
-                "operator": "LIKE",
-                "value": "#requestParam.d-7672090-fn_imoveis_colossus.predio#"
-            }],
+            "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "",
