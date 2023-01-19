@@ -6,12 +6,25 @@
             "aggregateField": [],
             "customSelectionValue": "",
             "extraCondition": "imoveis_colossus.customProperties.predio like '#requestParam.d-7672090-fn_imoveis_colossus.predio#'\nand imoveis_colossus.customProperties.predio like '#requestParam.d-7672090-fn_imoveis_colossus.freguesia#'",
-            "filters": [],
+            "filters": [
+                {
+                    "field": "imoveis_colossus.predio",
+                    "join": "AND",
+                    "operator": "LIKE",
+                    "value": "#requestParam.d-7672090-fn_imoveis_colossus.predio#"
+                },
+                {
+                    "field": "imoveis_colossus.freguesia",
+                    "join": "AND",
+                    "operator": "LIKE",
+                    "value": "#requestParam.d-7672090-fn_imoveis_colossus.freguesia#"
+                }
+            ],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "",
             "joins": [{
-                "fieldId": null,
+                "fieldId": "",
                 "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
