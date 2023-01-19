@@ -9,7 +9,7 @@
             "filters": [{
                 "field": "imoveis_colossus.freguesia",
                 "join": "AND",
-                "operator": "=",
+                "operator": "LIKE",
                 "value": "#requestParam.d-7672090-fn_imoveis_colossus.freguesia#"
             }],
             "formDefId": "listaProcessosColossus",
