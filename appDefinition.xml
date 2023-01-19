@@ -1,5 +1,4 @@
 <appDefinition>
-   <appId>colossus</appId>
    <id>colossus</id>
    <version></version>
    <name>Colossus</name>
@@ -15,35 +14,35 @@
       <appResource>
          <id>colossus.png</id>
          <appId>colossus</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>83551</filesize>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>FileSystem.png</id>
          <appId>colossus</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>19327</filesize>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.FileSystem.png#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>Millennium.jpg</id>
          <appId>colossus</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>5742</filesize>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.Millennium.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>MillenniumFooter.jpg</id>
          <appId>colossus</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>5903</filesize>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.MillenniumFooter.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>PL_Full_Symbol_on_Green_Background-removeb.png</id>
          <appId>colossus</appId>
-         <appVersion>1</appVersion>
+         <appVersion>2</appVersion>
          <filesize>39906</filesize>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>

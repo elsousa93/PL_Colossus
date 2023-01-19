@@ -1,5 +1,4 @@
 <appDefinition>
-   <appId>colossus</appId>
    <id>colossus</id>
    <version></version>
    <name>Colossus</name>
@@ -12,6 +11,8 @@
    <environmentVariableList>
       <environmentVariable>
          <id>generateImage</id>
+         <appId>colossus</appId>
+         <appVersion>2</appVersion>
          <value>import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -56,6 +57,8 @@ try {
       </environmentVariable>
       <environmentVariable>
          <id>templateEmail</id>
+         <appId>colossus</appId>
+         <appVersion>2</appVersion>
          <value>Estimado(a) Sr(a).
     
     nome_texto
