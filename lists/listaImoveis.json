@@ -1,0 +1,104 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "criarImovel",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "pid",
+            "name": "pid",
+            "permission_rules": {},
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Predio",
+            "name": "predio",
+            "permission_rules": {},
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Freguesia",
+            "name": "freguesia",
+            "permission_rules": {},
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Conservatoria",
+            "name": "conservatoria",
+            "permission_rules": {},
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
+    "filters": [],
+    "hidePageSize": "",
+    "id": "listaImoveis",
+    "name": "Lista de Imoveis",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "permission_rules": [],
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "hidden": "true",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "permission_rules": {"098ef071-b3cb-9563-7843-17b2b63a5111": {}},
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "deleteSubformData": "",
+            "formDefId": "criarImovel",
+            "label": "Delete",
+            "rules": []
+        },
+        "type": "text"
+    }],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}

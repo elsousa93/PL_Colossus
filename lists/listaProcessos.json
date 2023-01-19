@@ -1,0 +1,204 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "customSelectionValue": "",
+            "extraCondition": "imoveis_colossus.customProperties.predio  like '#requestParam.d-7672090-fn_imoveis_colossus.predio#'",
+            "filters": [],
+            "formDefId": "listaProcessosColossus",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": [{
+                "fieldId": "imoveis_colossus.pid",
+                "joinFieldId": "pid",
+                "tableName": "imoveis_colossus"
+            }]
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "dataListAlignCenter",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "dataListAlignCenter",
+            "hidden": "false",
+            "id": "column_1",
+            "label": "PID",
+            "name": "pid",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "dataListAlignCenter",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "dataListAlignCenter",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Data de Criação",
+            "name": "data_criacao",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/listaProcessos?_mode=edit",
+                    "hrefColumn": "pid",
+                    "hrefParam": "id",
+                    "label": "Hyperlink",
+                    "target": "_self",
+                    "visible": ""
+                }
+            },
+            "alignment": "dataListAlignLeft",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "org.joget.plugin.enterprise.BeanShellFormatter",
+                "properties": {"script": "String s = value.replace(\"\\\\\",\"\\\\\\\\\");\nString[] array = s.split(\"\\\\\\\\\");\n\nreturn array[array.length-1];"}
+            },
+            "headerAlignment": "dataListAlignLeft",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Nome da Pasta",
+            "name": "nome_pasta",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Prédio",
+            "name": "imoveis_colossus.predio",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "imoveis_colossus.freguesia",
+            "name": "imoveis_colossus.freguesia",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "imoveis_colossus.conservatoria",
+            "name": "imoveis_colossus.conservatoria",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_pid",
+            "id": "filter_0",
+            "label": "PID",
+            "name": "pid",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_imoveis_colossus.predio",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Prédio",
+            "name": "imoveis_colossus.predio",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        }
+    ],
+    "hidePageSize": "",
+    "id": "listaProcessos",
+    "name": "Lista de Processos",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "permission_rules": [{
+        "permission": {
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "allowedGroupIds": "ColossusPermissaoEditar",
+                "orgId": ""
+            }
+        },
+        "permission_key": "a36895ca-2895-17c9-de92-348c704e071f",
+        "permission_name": "Permissao Editar"
+    }],
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "true",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}
