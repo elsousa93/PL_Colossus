@@ -5,8 +5,13 @@
         "properties": {
             "aggregateField": [],
             "customSelectionValue": "",
-            "extraCondition": "imoveis_colossus.customProperties.predio  like '#requestParam.d-7672090-fn_imoveis_colossus.predio#'",
-            "filters": [],
+            "extraCondition": "imoveis_colossus.customProperties.predio  like '#requestParam.d-7672090-fn_imoveis_colossus.freguesia#'",
+            "filters": [{
+                "field": "imoveis_colossus.freguesia",
+                "join": "AND",
+                "operator": "=",
+                "value": "#requestParam.d-7672090-fn_imoveis_colossus.freguesia#"
+            }],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "",
