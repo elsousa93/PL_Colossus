@@ -10,13 +10,13 @@
                 {
                     "field": "imoveis_colossus.freguesia",
                     "join": "AND",
-                    "operator": "LIKE",
+                    "operator": "=",
                     "value": "#requestParam.d-7672090-fn_imoveis_colossus.freguesia#"
                 },
                 {
                     "field": "imoveis_colossus.predio",
                     "join": "AND",
-                    "operator": "LIKE",
+                    "operator": "=",
                     "value": "#requestParam.d-7672090-fn_imoveis_colossus.predio#"
                 }
             ],
