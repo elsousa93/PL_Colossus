@@ -196,7 +196,7 @@
     "id": "listaProcessos",
     "name": "Lista de Processos",
     "order": "",
-    "orderBy": "",
+    "orderBy": "imoveis_colossus.freguesia",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "permission_rules": [{
