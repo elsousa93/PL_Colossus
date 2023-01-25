@@ -180,18 +180,44 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-7672090-fn_pid",
-        "id": "filter_0",
-        "label": "PID",
-        "name": "pid",
-        "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_pid",
+            "id": "filter_0",
+            "label": "PID",
+            "name": "pid",
+            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_imoveis_colossus.freguesia",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Freguesia",
+            "name": "imoveis_colossus.freguesia",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-7672090-fn_imoveis_colossus.predio",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Prédio",
+            "name": "imoveis_colossus.predio",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
         }
-    }],
+    ],
     "hidePageSize": "",
     "id": "listaProcessos",
     "name": "Lista de Processos",
