@@ -6,11 +6,28 @@
             "aggregateField": [],
             "customSelectionValue": "",
             "extraCondition": "imoveis_colossus.customProperties.freguesia  like '%#requestParam.d-7672090-fn_imoveis_colossus.freguesia#%' and imoveis_colossus.customProperties.predio  like '%#requestParam.d-7672090-fn_imoveis_colossus.predio#%'",
-            "filters": [],
+            "filters": [
+                {
+                    "field": "imoveis_colossus.freguesia",
+                    "join": "AND",
+                    "operator": "LIKE",
+                    "value": "%#requestParam.d-7672090-fn_imoveis_colossus.freguesia#%"
+                },
+                {
+                    "field": "imoveis_colossus.predio",
+                    "join": "AND",
+                    "operator": "LIKE",
+                    "value": "%#requestParam.d-7672090-fn_imoveis_colossus.predio#%"
+                }
+            ],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "",
-            "joins": []
+            "joins": [{
+                "fieldId": "imoveis_colossus.pid",
+                "joinFieldId": "pid",
+                "tableName": "imoveis_colossus"
+            }]
         }
     },
     "buttonPosition": "bottomLeft",
@@ -89,6 +106,72 @@
             "label": "Nome da Pasta",
             "name": "nome_pasta",
             "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Prédio",
+            "name": "imoveis_colossus.predio",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Freguesia",
+            "name": "imoveis_colossus.freguesia",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Conservatória",
+            "name": "imoveis_colossus.conservatoria",
             "sortable": "false",
             "style": "",
             "width": ""
