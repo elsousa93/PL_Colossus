@@ -5,29 +5,12 @@
         "properties": {
             "aggregateField": [],
             "customSelectionValue": "",
-            "extraCondition": "imoveis_colossus.customProperties.freguesia  like '%#requestParam.d-7672090-fn_imoveis_colossus.freguesia#%' and imoveis_colossus.customProperties.predio  like '%#requestParam.d-7672090-fn_imoveis_colossus.predio#%'",
-            "filters": [
-                {
-                    "field": "imoveis_colossus.freguesia",
-                    "join": "AND",
-                    "operator": "LIKE",
-                    "value": "%#requestParam.d-7672090-fn_imoveis_colossus.freguesia#%"
-                },
-                {
-                    "field": "imoveis_colossus.predio",
-                    "join": "AND",
-                    "operator": "LIKE",
-                    "value": "%#requestParam.d-7672090-fn_imoveis_colossus.predio#%"
-                }
-            ],
+            "extraCondition": "",
+            "filters": [],
             "formDefId": "listaProcessosColossus",
             "functionColumns": [],
             "groupBy": "",
-            "joins": [{
-                "fieldId": "imoveis_colossus.pid",
-                "joinFieldId": "pid",
-                "tableName": "imoveis_colossus"
-            }]
+            "joins": []
         }
     },
     "buttonPosition": "bottomLeft",
@@ -109,117 +92,23 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Prédio",
-            "name": "imoveis_colossus.predio",
-            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_5",
-            "label": "Freguesia",
-            "name": "imoveis_colossus.freguesia",
-            "sortable": "true",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Conservatória",
-            "name": "imoveis_colossus.conservatoria",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_pid",
-            "id": "filter_0",
-            "label": "PID",
-            "name": "pid",
-            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_imoveis_colossus.freguesia",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Freguesia",
-            "name": "imoveis_colossus.freguesia",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-7672090-fn_imoveis_colossus.predio",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Prédio",
-            "name": "imoveis_colossus.predio",
-            "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-7672090-fn_pid",
+        "id": "filter_0",
+        "label": "PID",
+        "name": "pid",
+        "permission_rules": {"a36895ca-2895-17c9-de92-348c704e071f": {}},
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
         }
-    ],
+    }],
     "hidePageSize": "",
     "id": "listaProcessos",
     "name": "Lista de Processos",
