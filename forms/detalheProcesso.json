@@ -40,14 +40,8 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "org.joget.plugin.enterprise.JdbcOptionsBinder",
-                            "properties": {
-                                "addEmpty": "",
-                                "cacheInterval": "",
-                                "jdbcDatasource": "default",
-                                "sql": "SELECT id FROM app_fd_lista_proce_colossus WHERE c_pid = '223322';",
-                                "useAjax": ""
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
                         "readonly": "",
