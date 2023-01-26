@@ -22,7 +22,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#form.processo_manual.pid#",
+                        "value": "#form.lista_proce_colossus.pid#",
                         "workflowVariable": ""
                     }
                 },
