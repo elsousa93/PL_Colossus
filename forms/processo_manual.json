@@ -122,6 +122,13 @@
                                 "label": "Conservatoria",
                                 "value": "conservatoria",
                                 "width": ""
+                            },
+                            {
+                                "format": "",
+                                "formatType": "text",
+                                "label": "PID",
+                                "value": "pid",
+                                "width": ""
                             }
                         ],
                         "pageSize": "20",
