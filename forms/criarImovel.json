@@ -10,7 +10,7 @@
                     "properties": {
                         "encryption": "",
                         "id": "pid",
-                        "label": "PID",
+                        "label": "pid",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
