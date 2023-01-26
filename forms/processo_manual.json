@@ -140,7 +140,7 @@
                         "storeBinder": {
                             "className": "org.joget.plugin.enterprise.MultirowFormBinder",
                             "properties": {
-                                "foreignKey": "pid",
+                                "foreignKey": "id",
                                 "formDefId": "criarImovel"
                             }
                         },
