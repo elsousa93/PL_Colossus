@@ -10,7 +10,7 @@
                     "properties": {
                         "id": "pid",
                         "permission_rules": {},
-                        "useDefaultWhenEmpty": "true",
+                        "useDefaultWhenEmpty": "",
                         "validator": {
                             "className": "",
                             "properties": {}
