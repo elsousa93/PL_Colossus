@@ -58,6 +58,14 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "False",
+                        "id": "field5",
+                        "label": ""
+                    }
+                },
+                {
                     "className": "org.joget.plugin.enterprise.FormGrid",
                     "properties": {
                         "abortRelatedRunningProcesses": "",
@@ -100,6 +108,13 @@
                                 "formatType": "text",
                                 "label": "Conservatoria",
                                 "value": "conservatoria",
+                                "width": ""
+                            },
+                            {
+                                "format": "",
+                                "formatType": "text",
+                                "label": "Input",
+                                "value": "input",
                                 "width": ""
                             }
                         ],
