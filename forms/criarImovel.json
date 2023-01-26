@@ -6,15 +6,6 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
-                    "properties": {
-                        "autoPopulate": "",
-                        "id": "field5",
-                        "label": "",
-                        "value": "<script>\n    $(document).ready(function(){\n        console.log(sessionStorage.getItem(\"valor_pid\"));\n    });\n\n<\/script>"
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
