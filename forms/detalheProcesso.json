@@ -35,7 +35,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "data_criacao",
+                        "id": "dateCreated",
                         "label": "Data de Criação",
                         "maxlength": "",
                         "permissionHidden": "",
