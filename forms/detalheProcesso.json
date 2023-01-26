@@ -27,7 +27,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#form.lista_proce_colossus.c_pid#",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
@@ -35,7 +35,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "id": "field6",
+                        "id": "pid",
                         "label": "Select Box",
                         "multiple": "",
                         "options": [],
