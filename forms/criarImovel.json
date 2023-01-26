@@ -22,7 +22,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "",
+                        "value": "#form.processo_manual.pid#",
                         "workflowVariable": ""
                     }
                 },
