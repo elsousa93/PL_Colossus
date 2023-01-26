@@ -41,10 +41,10 @@
                         "permissionHidden": "",
                         "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {
                             "permissionHidden": "",
-                            "readonly": "true"
+                            "readonly": ""
                         }},
                         "placeholder": "",
-                        "readonly": "true",
+                        "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
                         "storeNumeric": "",
