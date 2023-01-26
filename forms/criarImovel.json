@@ -6,16 +6,23 @@
             "className": "org.joget.apps.form.model.Column",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
+                        "encryption": "",
                         "id": "pid",
-                        "permission_rules": {},
-                        "useDefaultWhenEmpty": "",
+                        "label": "PID",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
-                        "value": "#form.lista_proce_colossus.pid#",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 },
