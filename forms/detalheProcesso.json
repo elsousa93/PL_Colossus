@@ -114,6 +114,13 @@
                             {
                                 "format": "",
                                 "formatType": "text",
+                                "label": "PID",
+                                "value": "pid",
+                                "width": ""
+                            },
+                            {
+                                "format": "",
+                                "formatType": "text",
                                 "label": "Input",
                                 "value": "input",
                                 "width": ""
