@@ -45,7 +45,7 @@
                                 "addEmpty": "",
                                 "cacheInterval": "",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT c_pid FROM app_fd_lista_proce_colossus WHERE id = '223322';",
+                                "sql": "SELECT id FROM app_fd_lista_proce_colossus WHERE c_pid = '223322';",
                                 "useAjax": ""
                             }
                         },
