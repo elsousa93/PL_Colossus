@@ -35,7 +35,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "id": "pid",
+                        "id": "id",
                         "label": "Select Box",
                         "multiple": "",
                         "options": [],
