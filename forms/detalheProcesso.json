@@ -60,9 +60,10 @@
                 {
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
-                        "autoPopulate": "False",
+                        "autoPopulate": "",
                         "id": "field5",
-                        "label": ""
+                        "label": "",
+                        "value": "<script>\n\n    $(document).ready(function(){\n        \n        //Ocultar coluna do input\n        $(\"th[id*=imoveisGrid_input]\").hide();\n        $(\"span[id*=imoveisGrid_input]\").parent().hide();\n        \n    });\n    \n    $(document).change(function(){\n        \n        //Ocultar coluna do input\n        $(\"th[id*=imoveisGrid_input]\").hide();\n        $(\"span[id*=imoveisGrid_input]\").parent().hide();\n        \n    });\n\n<\/script>"
                     }
                 },
                 {
