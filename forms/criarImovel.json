@@ -10,7 +10,11 @@
                     "properties": {
                         "id": "pid",
                         "permission_rules": {},
-                        "useDefaultWhenEmpty": "",
+                        "useDefaultWhenEmpty": "true",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
                         "value": "#form.lista_proce_colossus.pid#",
                         "workflowVariable": ""
                     }
