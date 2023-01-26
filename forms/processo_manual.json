@@ -127,7 +127,7 @@
                             {
                                 "format": "",
                                 "formatType": "text",
-                                "label": "Predio",
+                                "label": "Prédio",
                                 "value": "predio",
                                 "width": ""
                             },
@@ -141,7 +141,7 @@
                             {
                                 "format": "",
                                 "formatType": "text",
-                                "label": "Conservatoria",
+                                "label": "Conservatória",
                                 "value": "conservatoria",
                                 "width": ""
                             },
