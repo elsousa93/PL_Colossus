@@ -95,8 +95,11 @@
                         "id": "imoveisGrid",
                         "label": "Imoveis",
                         "loadBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                            "properties": {
+                                "foreignKey": "pid",
+                                "formDefId": "criarImovel"
+                            }
                         },
                         "options": [
                             {
@@ -135,8 +138,11 @@
                         "readonlyLabel": "",
                         "showRowNumber": "",
                         "storeBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.plugin.enterprise.MultirowFormBinder",
+                            "properties": {
+                                "foreignKey": "pid",
+                                "formDefId": "criarImovel"
+                            }
                         },
                         "submit-label-normal": "",
                         "submit-label-readonly": "",
