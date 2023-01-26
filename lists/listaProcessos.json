@@ -25,7 +25,7 @@
             "groupBy": "",
             "joins": [{
                 "fieldId": "imoveis_colossus.pid",
-                "joinFieldId": "id",
+                "joinFieldId": "pid",
                 "tableName": "imoveis_colossus"
             }]
         }
