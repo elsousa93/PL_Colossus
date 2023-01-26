@@ -15,38 +15,14 @@
                         "permissionHidden": "",
                         "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {
                             "permissionHidden": "",
-                            "readonly": ""
+                            "readonly": "true"
                         }},
                         "placeholder": "",
-                        "readonly": "",
+                        "readonly": "true",
                         "readonlyLabel": "",
                         "size": "",
                         "storeNumeric": "",
                         "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "controlField": "",
-                        "id": "id",
-                        "label": "Select Box",
-                        "multiple": "",
-                        "options": [],
-                        "optionsBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "permission_rules": {"006e7f57-e573-b7ea-b8bc-6e1c9596bf3c": {}},
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
                         "validator": {
                             "className": "",
                             "properties": {}
