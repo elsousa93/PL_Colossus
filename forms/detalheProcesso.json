@@ -58,6 +58,35 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "data_criacao_select",
+                        "label": "Select Box",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.plugin.enterprise.JdbcOptionsBinder",
+                            "properties": {
+                                "addEmpty": "",
+                                "cacheInterval": "",
+                                "jdbcDatasource": "default",
+                                "sql": "SELECT c_data_criacao FROM app_fd_lista_proce_colossus WHERE id = '#process.processId#';\n",
+                                "useAjax": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
                         "autoPopulate": "",
