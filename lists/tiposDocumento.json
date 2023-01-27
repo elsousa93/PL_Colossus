@@ -1,0 +1,46 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "extraCondition": "",
+            "formDefId": "tipoDocumento"
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "Tipo de Documento",
+        "name": "tipo_documento",
+        "sortable": "false"
+    }],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "filters": [],
+    "id": "tiposDocumento",
+    "name": "Tipos de Documento",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "false",
+            "deleteFiles": "false",
+            "deleteGridData": "false",
+            "deleteSubformData": "false",
+            "label": "Delete"
+        },
+        "type": "text"
+    }],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
