@@ -71,7 +71,7 @@
                                 "addEmpty": "",
                                 "cacheInterval": "",
                                 "jdbcDatasource": "default",
-                                "sql": "SELECT c_data_criacao FROM app_fd_lista_proce_colossus WHERE id = '2015.00767';\n",
+                                "sql": "SELECT c_data_criacao FROM app_fd_lista_proce_colossus WHERE id = '#requestParam.id#';\n",
                                 "useAjax": ""
                             }
                         },
