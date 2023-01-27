@@ -9,7 +9,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "encryption": "",
-                        "id": "id",
+                        "id": "pid",
                         "label": "PID",
                         "maxlength": "",
                         "permissionHidden": "",
@@ -27,7 +27,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "",
+                        "value": "#form.lista_proce_colossus.pid#",
                         "workflowVariable": ""
                     }
                 },
