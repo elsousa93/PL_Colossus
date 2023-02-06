@@ -84,12 +84,11 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "http://192.168.0.104:8080/jw/web/userview/colossus/listaProcessos/_/listaProcessos?_mode=edit",
+                    "href": "#request.scheme#://#request.serverName#:#request.serverPort##request.contextPath#/web/userview/colossus/listaProcessos/_/listaProcessos?_mode=edit",
                     "hrefColumn": "pid",
                     "hrefParam": "id",
                     "label": "Hyperlink",
-                    "target": "_self",
-                    "visible": ""
+                    "target": "_self"
                 }
             },
             "alignment": "dataListAlignLeft",
