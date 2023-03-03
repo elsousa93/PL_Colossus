@@ -464,7 +464,7 @@
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "",
         "id": "listaProcessos",
         "logoutText": "Logout",
         "name": "Colossus",
