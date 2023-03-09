@@ -506,7 +506,7 @@
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
                 "menuFontColor": "BLACK",
                 "primaryColor": "custom",
-                "profile": "",
+                "profile": "true",
                 "removeAssignmentTitle": "",
                 "shortcut": [],
                 "shortcutLinkLabel": "",
