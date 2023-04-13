@@ -1,11 +1,22 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "aggregateField": [],
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "formDefId": "criarImovel",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
     "columns": [],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "rpt_lst",
@@ -13,5 +24,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
